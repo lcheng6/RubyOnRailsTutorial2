@@ -26,6 +26,6 @@ end
 
 group :production do
   gem 'mysql2'
-  gem 'pg', '0.15.1'
+  #gem 'pg', '0.15.1'
   gem 'rails_12factor', '0.0.2'
 end

@@ -1,8 +1,9 @@
 SampleApp2::Application.routes.draw do
-  get "static_pages/home"
-  get "static_pages/help"
-  get "static_pages/contact"
-  get "static_pages/about"
+
+  root 'static_pages#home'
+  match '/help', to: 'static_pages#help', via: 'get'
+  match '/contact', to: 'static_pages#contact', via: 'get'
+  match '/about', to: 'static_pages#about', via: 'get'
   resources :microposts
 
   resources :users

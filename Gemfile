@@ -1,8 +1,9 @@
 source 'https://rubygems.org'
 
-ruby '2.0.0'
+ruby "2.0.0"
 
-gem 'rails', '4.0.4'
+gem 'bundler'
+gem 'rails', '~>4.0.4'
 gem 'railties', '4.0.4'
 gem 'bootstrap-sass', '2.0.0'
 gem 'bcrypt-ruby', '3.0.1'

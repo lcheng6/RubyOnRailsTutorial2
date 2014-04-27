@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9942fb11-67f5-4e01-9386-3003e52d3143" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Gemfile" afterPath="$PROJECT_DIR$/Gemfile" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-    </list>
+    <list default="true" id="9942fb11-67f5-4e01-9386-3003e52d3143" name="Default" comment="" />
     <ignored path="sample_app2.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -808,7 +805,7 @@
       <workItem from="1398559934295" duration="48000" />
       <workItem from="1398560776264" duration="78000" />
       <workItem from="1398560894592" duration="57000" />
-      <workItem from="1398561003506" duration="839000" />
+      <workItem from="1398561003506" duration="880000" />
     </task>
     <task id="LOCAL-00001" summary="Just testing the commit">
       <created>1396589807013</created>
@@ -822,7 +819,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="30152000" />
+    <option name="totallyTimeSpent" value="30193000" />
   </component>
   <component name="TodoView" selected-index="0">
     <todo-panel id="selected-file">

@@ -111,4 +111,13 @@ describe User do
       specify { expect(user_for_invalid_password).to be_false }
     end
   end
+
+  describe "email address with mixed case" do
+    let(:mixed_email_address) { "Foo@Example.Com" }
+    it "should be saved as all lower-case" do
+      @user.email = mixed_email_address
+      @user.save
+      expect(@user.reload.email).to eq mixed_email_address.downcase
+    end
+  end
 end

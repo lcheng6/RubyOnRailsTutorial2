@@ -30,7 +30,7 @@ gem 'jquery-rails', '~>2.0.0'
 
 group :test do
   gem 'capybara', '~>2.2.0'
-  gem 'cucumber-rails', '1.2.1'
+  gem 'cucumber-rails'
   gem 'database_cleaner', '0.7.0'
   gem 'factory_girl_rails', '4.2.1'
 end

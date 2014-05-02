@@ -17,3 +17,5 @@
 .elasticbeanstalk/
 .secret
 .rakeTasks
+
+.idea/

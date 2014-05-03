@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="DataSourceManagerImpl" format="xml" hash="1937235995">
+  <component name="DataSourceManagerImpl" format="xml" hash="247236765">
     <data-source source="LOCAL" name="Rails sample_app2: development" uuid="f6b4f433-0f2e-4aed-b238-431f0182d1a9">
       <driver-ref>sqlite.xerial</driver-ref>
       <jdbc-driver>org.sqlite.JDBC</jdbc-driver>
@@ -8,6 +8,12 @@
       <libraries />
     </data-source>
     <data-source source="LOCAL" name="Rails sample_app2: test" uuid="01a371cc-91c1-48b0-9b8f-a3402fd2cce3">
+      <driver-ref>sqlite.xerial</driver-ref>
+      <jdbc-driver>org.sqlite.JDBC</jdbc-driver>
+      <jdbc-url>jdbc:sqlite:$PROJECT_DIR$/db/test.sqlite3</jdbc-url>
+      <libraries />
+    </data-source>
+    <data-source source="LOCAL" name="Rails sample_app2: cucumber" uuid="ba77f6a2-e61d-4d81-ad5f-1d09274e46d8">
       <driver-ref>sqlite.xerial</driver-ref>
       <jdbc-driver>org.sqlite.JDBC</jdbc-driver>
       <jdbc-url>jdbc:sqlite:$PROJECT_DIR$/db/test.sqlite3</jdbc-url>

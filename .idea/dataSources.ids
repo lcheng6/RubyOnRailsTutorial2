@@ -6,4 +6,7 @@
   <data-source source="LOCAL" name="Rails sample_app2: test" uuid="01a371cc-91c1-48b0-9b8f-a3402fd2cce3">
     <database-info product="" version="" jdbc-version="" driver-name="" driver-version=""/>
   </data-source>
+  <data-source source="LOCAL" name="Rails sample_app2: cucumber" uuid="ba77f6a2-e61d-4d81-ad5f-1d09274e46d8">
+    <database-info product="" version="" jdbc-version="" driver-name="" driver-version=""/>
+  </data-source>
 </component>

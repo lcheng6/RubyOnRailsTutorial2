@@ -1,13 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9942fb11-67f5-4e01-9386-3003e52d3143" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/users/_user.html.erb" afterPath="$PROJECT_DIR$/app/views/users/_user.html.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spec/requests/authentication_pages_spec.rb" afterPath="$PROJECT_DIR$/spec/requests/authentication_pages_spec.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spec/factories.rb" afterPath="$PROJECT_DIR$/spec/factories.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spec/requests/user_pages_spec.rb" afterPath="$PROJECT_DIR$/spec/requests/user_pages_spec.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/users_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/users_controller.rb" />
-    </list>
+    <list default="true" id="9942fb11-67f5-4e01-9386-3003e52d3143" name="Default" comment="" />
     <ignored path="sample_app2.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -1289,7 +1283,7 @@
       <workItem from="1398622291106" duration="332000" />
       <workItem from="1398622982827" duration="20668000" />
       <workItem from="1399051668396" duration="1897000" />
-      <workItem from="1399173812079" duration="12693000" />
+      <workItem from="1399173812079" duration="12764000" />
     </task>
     <task id="LOCAL-00001" summary="Just testing the commit">
       <created>1396589807013</created>
@@ -1303,7 +1297,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="74543000" />
+    <option name="totallyTimeSpent" value="74614000" />
   </component>
   <component name="TodoView" selected-index="0">
     <todo-panel id="selected-file">

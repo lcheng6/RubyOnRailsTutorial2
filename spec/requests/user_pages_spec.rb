@@ -1,4 +1,5 @@
 require 'spec_helper'
+require 'pp'
 
 describe "User pages" do
 
@@ -49,7 +50,9 @@ describe "User pages" do
 
         describe "should not delete admin user" do
           before { delete user_path(admin) }
-          specify { expect(response.status).not_to eq(200) }
+          it { expect(response.status).not_to eq(200) }
+          it { expect { delete user_path(admin) }.not_to change(User, :count) }
+          #specify { change(User, :count).by(-2).should be_true  }
         end
       end
     end

@@ -5,7 +5,8 @@ describe Micropost do
   let(:user) { FactoryGirl.create(:user) }
   before do
     # This code is not idiomatically correct.
-    @micropost = Micropost.new(content: "Lorem ipsum", user_id: user.id)
+    #@micropost = Micropost.new(content: "Lorem ipsum", user_id: user.id)
+    @micropost = user.microposts.build(content: "Lorem ipsum")
   end
 
   subject { @micropost }

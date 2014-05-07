@@ -18,7 +18,13 @@ class UsersController < ApplicationController
 
   # GET /users/new
   def new
-    @user = User.new
+    if signed_in?
+      @user = current_user
+      flash[:error] = "You cannot create a new user"
+      redirect_to @user
+    else
+      @user = User.new
+    end
   end
 
   # GET /users/1/edit

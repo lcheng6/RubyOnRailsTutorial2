@@ -1,7 +1,7 @@
 namespace :db do
   desc "Fill database with sample data"
   task populate: :environment do
-    #make_single_admin_user
+    make_single_admin_user
     make_99_common_users
   end
 end

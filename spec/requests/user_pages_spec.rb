@@ -46,6 +46,11 @@ describe "User pages" do
           end.to change(User, :count).by(-1)
         end
         it { should_not have_link('delete', href: user_path(admin)) }
+
+        describe "should not delete admin user" do
+          before { delete user_path(admin) }
+          specify { expect(response.status).not_to eq(200) }
+        end
       end
     end
   end

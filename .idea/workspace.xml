@@ -2,11 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9942fb11-67f5-4e01-9386-3003e52d3143" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/layouts/application.html.erb" afterPath="$PROJECT_DIR$/app/views/layouts/application.html.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spec/requests/authentication_pages_spec.rb" afterPath="$PROJECT_DIR$/spec/requests/authentication_pages_spec.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/users/edit.html.erb" afterPath="$PROJECT_DIR$/app/views/users/edit.html.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/tasks/sample_data.rake" afterPath="$PROJECT_DIR$/lib/tasks/sample_data.rake" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/users_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/users_controller.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spec/requests/user_pages_spec.rb" afterPath="$PROJECT_DIR$/spec/requests/user_pages_spec.rb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="sample_app2.iws" />
@@ -68,6 +64,26 @@
     <breakpoint_rules converted="true" />
     <ui_properties converted="true" />
   </component>
+  <component name="DockManager">
+    <window id="1">
+      <content type="file-editors">
+        <state>
+          <leaf>
+            <file leaf-file-name="authentication_pages_spec.rb" pinned="false" current="false" current-in-tab="true">
+              <entry file="file://$PROJECT_DIR$/spec/requests/authentication_pages_spec.rb">
+                <provider selected="true" editor-type-id="text-editor">
+                  <state vertical-scroll-proportion="-0.10795455" vertical-offset="1497" max-vertical-offset="2025">
+                    <caret line="96" column="9" selection-start-line="96" selection-start-column="9" selection-end-line="96" selection-end-column="9" />
+                    <folding />
+                  </state>
+                </provider>
+              </entry>
+            </file>
+          </leaf>
+        </state>
+      </content>
+    </window>
+  </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FavoritesManager">
     <favorites_list name="sample_app2" />
@@ -104,11 +120,31 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="authentication_pages_spec.rb" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/spec/requests/authentication_pages_spec.rb">
+      <file leaf-file-name="user_pages_spec.rb" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/spec/requests/user_pages_spec.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.7574124" vertical-offset="1624" max-vertical-offset="2025">
-              <caret line="127" column="5" selection-start-line="127" selection-start-column="5" selection-end-line="127" selection-end-column="5" />
+            <state vertical-scroll-proportion="0.7703549" vertical-offset="396" max-vertical-offset="2355">
+              <caret line="51" column="48" selection-start-line="51" selection-start-column="48" selection-end-line="51" selection-end-column="48" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="factories.rb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/spec/factories.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="255">
+              <caret line="9" column="7" selection-start-line="9" selection-start-column="7" selection-end-line="9" selection-end-column="7" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="users_controller_spec.txt" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/spec/controllers/users_controller_spec.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="867" max-vertical-offset="2490">
+              <caret line="64" column="35" selection-start-line="64" selection-start-column="35" selection-end-line="64" selection-end-column="35" />
               <folding />
             </state>
           </provider>
@@ -124,31 +160,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="routes.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/config/routes.rb">
+      <file leaf-file-name="utilities.rb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/spec/support/utilities.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1185">
-              <caret line="2" column="2" selection-start-line="2" selection-start-column="2" selection-end-line="2" selection-end-column="2" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="new.html.erb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/views/users/new.html.erb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-3.75" vertical-offset="0" max-vertical-offset="435">
-              <caret line="6" column="34" selection-start-line="6" selection-start-column="34" selection-end-line="6" selection-end-column="34" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="_error_messages.html.erb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/views/shared/_error_messages.html.erb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-1.875" vertical-offset="0" max-vertical-offset="255">
-              <caret line="3" column="42" selection-start-line="3" selection-start-column="42" selection-end-line="3" selection-end-column="42" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="87" max-vertical-offset="615">
+              <caret line="17" column="4" selection-start-line="17" selection-start-column="4" selection-end-line="17" selection-end-column="4" />
               <folding />
             </state>
           </provider>
@@ -228,11 +244,11 @@
         <option value="$PROJECT_DIR$/app/helpers/users_helper.rb" />
         <option value="$PROJECT_DIR$/app/views/users/_user.html.erb" />
         <option value="$PROJECT_DIR$/app/views/users/edit.html.erb" />
-        <option value="$PROJECT_DIR$/spec/requests/user_pages_spec.rb" />
         <option value="$PROJECT_DIR$/lib/tasks/sample_data.rake" />
         <option value="$PROJECT_DIR$/app/controllers/users_controller.rb" />
         <option value="$PROJECT_DIR$/app/views/layouts/application.html.erb" />
         <option value="$PROJECT_DIR$/spec/requests/authentication_pages_spec.rb" />
+        <option value="$PROJECT_DIR$/spec/requests/user_pages_spec.rb" />
       </list>
     </option>
   </component>
@@ -759,7 +775,7 @@
     <property name="options.splitter.details.proportions" value="0.2" />
     <property name="options.searchVisible" value="true" />
     <property name="restartRequiresConfirmation" value="true" />
-    <property name="SearchEverywhereHistoryKey" value="authenti&#9;FILE&#9;file:///Users/liangcheng/Documents/Work/RubyProjects/tutorial_with_intellij/RubyOnRailsTutorial2/spec/requests/authentication_pages_spec.rb&#10;signed&#9;null&#9;null&#10;store_lo&#9;null&#9;null&#10;store_&#9;null&#9;null&#10;factories&#9;FILE&#9;file:///Users/liangcheng/Documents/Work/RubyProjects/tutorial_with_intellij/RubyOnRailsTutorial2/spec/factories.rb&#10;new.html.erb&#9;FILE&#9;file:///Users/liangcheng/Documents/Work/RubyProjects/tutorial_with_intellij/RubyOnRailsTutorial2/app/views/users/new.html.erb&#10;new&#9;FILE&#9;file:///Users/liangcheng/Documents/Work/RubyProjects/tutorial_with_intellij/RubyOnRailsTutorial2/app/views/sessions/new.html.erb&#10;users_con&#9;FILE&#9;file:///Users/liangcheng/Documents/Work/RubyProjects/tutorial_with_intellij/RubyOnRailsTutorial2/app/controllers/users_controller.rb&#10;edit.html&#9;FILE&#9;file:///Users/liangcheng/Documents/Work/RubyProjects/tutorial_with_intellij/RubyOnRailsTutorial2/app/views/users/edit.html.erb&#10;user_pages&#9;FILE&#9;file:///Users/liangcheng/Documents/Work/RubyProjects/tutorial_with_intellij/RubyOnRailsTutorial2/spec/requests/user_pages_spec.rb&#10;_shim&#9;FILE&#9;file:///Users/liangcheng/Documents/Work/RubyProjects/tutorial_with_intellij/RubyOnRailsTutorial2/app/views/layouts/_shim.html.erb&#10;index&#9;FILE&#9;file:///Users/liangcheng/Documents/Work/RubyProjects/tutorial_with_intellij/RubyOnRailsTutorial2/app/views/users/index.html.erb&#10;auth&#9;FILE&#9;file:///Users/liangcheng/Documents/Work/RubyProjects/tutorial_with_intellij/RubyOnRailsTutorial2/features/step_definitions/authentication_steps.rb&#10;authen&#9;FILE&#9;file:///Users/liangcheng/Documents/Work/RubyProjects/tutorial_with_intellij/RubyOnRailsTutorial2/spec/requests/authentication_pages_spec.rb&#10;_user.ht&#9;FILE&#9;file:///Users/liangcheng/Documents/Work/RubyProjects/tutorial_with_intellij/RubyOnRailsTutorial2/app/views/users/_user.html.erb&#10;user_para&#9;null&#9;null&#10;sample&#9;FILE&#9;file:///Users/liangcheng/Documents/Work/RubyProjects/tutorial_with_intellij/RubyOnRailsTutorial2/lib/tasks/sample_data.rake&#10;user_spec&#9;FILE&#9;file:///Users/liangcheng/Documents/Work/RubyProjects/tutorial_with_intellij/RubyOnRailsTutorial2/spec/requests/users_spec.rb&#10;index.html&#9;FILE&#9;file:///Users/liangcheng/Documents/Work/RubyProjects/tutorial_with_intellij/RubyOnRailsTutorial2/app/views/users/index.html.erb&#10;users_&#9;FILE&#9;file:///Users/liangcheng/Documents/Work/RubyProjects/tutorial_with_intellij/RubyOnRailsTutorial2/app/controllers/users_controller.rb&#10;index.h&#9;FILE&#9;file:///Users/liangcheng/Documents/Work/RubyProjects/tutorial_with_intellij/RubyOnRailsTutorial2/app/views/users/index.html.erb&#10;factori&#9;FILE&#9;file:///Users/liangcheng/Documents/Work/RubyProjects/tutorial_with_intellij/RubyOnRailsTutorial2/spec/factories.rb&#10;gemfile&#9;FILE&#9;file:///Users/liangcheng/Documents/Work/RubyProjects/tutorial_with_intellij/RubyOnRailsTutorial2/Gemfile&#10;_header&#9;FILE&#9;file:///Users/liangcheng/Documents/Work/RubyProjects/tutorial_with_intellij/RubyOnRailsTutorial2/app/views/layouts/_header.html.erb&#10;custom&#9;FILE&#9;file:///Users/liangcheng/Documents/Work/RubyProjects/tutorial_with_intellij/RubyOnRailsTutorial2/app/assets/stylesheets/custom.css.scss&#10;index.html.&#9;FILE&#9;file:///Users/liangcheng/Documents/Work/RubyProjects/tutorial_with_intellij/RubyOnRailsTutorial2/app/views/users/index.html.erb&#10;users_contro&#9;FILE&#9;file:///Users/liangcheng/Documents/Work/RubyProjects/tutorial_with_intellij/RubyOnRailsTutorial2/app/controllers/users_controller.rb&#10;signed_in&#9;null&#9;null&#10;signed_in_user&#9;null&#9;null&#10;signedin&#9;null&#9;null&#10;sessions&#9;FILE&#9;file:///Users/liangcheng/Documents/Work/RubyProjects/tutorial_with_intellij/RubyOnRailsTutorial2/app/controllers/sessions_controller.rb&#10;users_control&#9;FILE&#9;file:///Users/liangcheng/Documents/Work/RubyProjects/tutorial_with_intellij/RubyOnRailsTutorial2/app/controllers/users_controller.rb&#10;session_hel&#9;FILE&#9;file:///Users/liangcheng/Documents/Work/RubyProjects/tutorial_with_intellij/RubyOnRailsTutorial2/app/helpers/sessions_helper.rb&#10;users_spec&#9;FILE&#9;file:///Users/liangcheng/Documents/Work/RubyProjects/tutorial_with_intellij/RubyOnRailsTutorial2/spec/requests/users_spec.rb&#10;sessions_help&#9;FILE&#9;file:///Users/liangcheng/Documents/Work/RubyProjects/tutorial_with_intellij/RubyOnRailsTutorial2/app/helpers/sessions_helper.rb&#10;routes&#9;FILE&#9;file:///Users/liangcheng/Documents/Work/RubyProjects/tutorial_with_intellij/RubyOnRailsTutorial2/config/routes.rb&#10;header&#9;FILE&#9;file:///Users/liangcheng/Documents/Work/RubyProjects/tutorial_with_intellij/RubyOnRailsTutorial2/app/views/layouts/_header.html.erb&#10;authentication&#9;FILE&#9;file:///Users/liangcheng/Documents/Work/RubyProjects/tutorial_with_intellij/RubyOnRailsTutorial2/spec/requests/authentication_pages_spec.rb&#10;Gemfil&#9;FILE&#9;file:///Users/liangcheng/Documents/Work/RubyProjects/tutorial_with_intellij/RubyOnRailsTutorial2/Gemfile&#10;application&#9;FILE&#9;file:///Users/liangcheng/Documents/Work/RubyProjects/tutorial_with_intellij/RubyOnRailsTutorial2/app/views/layouts/application.html.erb&#10;user_page&#9;FILE&#9;file:///Users/liangcheng/Documents/Work/RubyProjects/tutorial_with_intellij/RubyOnRailsTutorial2/spec/requests/user_pages_spec.rb&#10;signin&#9;null&#9;null&#10;gem&#9;FILE&#9;file:///Users/liangcheng/Documents/Work/RubyProjects/tutorial_with_intellij/RubyOnRailsTutorial2/Gemfile&#10;session_h&#9;FILE&#9;file:///Users/liangcheng/Documents/Work/RubyProjects/tutorial_with_intellij/RubyOnRailsTutorial2/app/helpers/sessions_helper.rb&#10;authent&#9;FILE&#9;file:///Users/liangcheng/Documents/Work/RubyProjects/tutorial_with_intellij/RubyOnRailsTutorial2/spec/requests/authentication_pages_spec.rb&#10;application.js&#9;FILE&#9;file:///Users/liangcheng/Documents/Work/RubyProjects/tutorial_with_intellij/RubyOnRailsTutorial2/app/assets/javascripts/application.js&#10;user.rb&#9;FILE&#9;file:///Users/liangcheng/Documents/Work/RubyProjects/tutorial_with_intellij/RubyOnRailsTutorial2/app/models/user.rb&#10;application_con&#9;FILE&#9;file:///Users/liangcheng/Documents/Work/RubyProjects/tutorial_with_intellij/RubyOnRailsTutorial2/app/controllers/application_controller.rb&#10;sessions_con&#9;FILE&#9;file:///Users/liangcheng/Documents/Work/RubyProjects/tutorial_with_intellij/RubyOnRailsTutorial2/app/controllers/sessions_controller.rb&#10;routes.&#9;FILE&#9;file:///Users/liangcheng/Documents/Work/RubyProjects/tutorial_with_intellij/RubyOnRailsTutorial2/config/routes.rb" />
+    <property name="SearchEverywhereHistoryKey" value="user_pages&#9;FILE&#9;file:///Users/liangcheng/Documents/Work/RubyProjects/tutorial_with_intellij/RubyOnRailsTutorial2/spec/requests/user_pages_spec.rb&#10;factorie&#9;FILE&#9;file:///Users/liangcheng/Documents/Work/RubyProjects/tutorial_with_intellij/RubyOnRailsTutorial2/spec/factories.rb&#10;authenti&#9;FILE&#9;file:///Users/liangcheng/Documents/Work/RubyProjects/tutorial_with_intellij/RubyOnRailsTutorial2/spec/requests/authentication_pages_spec.rb&#10;signed&#9;null&#9;null&#10;store_lo&#9;null&#9;null&#10;store_&#9;null&#9;null&#10;factories&#9;FILE&#9;file:///Users/liangcheng/Documents/Work/RubyProjects/tutorial_with_intellij/RubyOnRailsTutorial2/spec/factories.rb&#10;new.html.erb&#9;FILE&#9;file:///Users/liangcheng/Documents/Work/RubyProjects/tutorial_with_intellij/RubyOnRailsTutorial2/app/views/users/new.html.erb&#10;new&#9;FILE&#9;file:///Users/liangcheng/Documents/Work/RubyProjects/tutorial_with_intellij/RubyOnRailsTutorial2/app/views/sessions/new.html.erb&#10;users_con&#9;FILE&#9;file:///Users/liangcheng/Documents/Work/RubyProjects/tutorial_with_intellij/RubyOnRailsTutorial2/app/controllers/users_controller.rb&#10;edit.html&#9;FILE&#9;file:///Users/liangcheng/Documents/Work/RubyProjects/tutorial_with_intellij/RubyOnRailsTutorial2/app/views/users/edit.html.erb&#10;_shim&#9;FILE&#9;file:///Users/liangcheng/Documents/Work/RubyProjects/tutorial_with_intellij/RubyOnRailsTutorial2/app/views/layouts/_shim.html.erb&#10;index&#9;FILE&#9;file:///Users/liangcheng/Documents/Work/RubyProjects/tutorial_with_intellij/RubyOnRailsTutorial2/app/views/users/index.html.erb&#10;auth&#9;FILE&#9;file:///Users/liangcheng/Documents/Work/RubyProjects/tutorial_with_intellij/RubyOnRailsTutorial2/features/step_definitions/authentication_steps.rb&#10;authen&#9;FILE&#9;file:///Users/liangcheng/Documents/Work/RubyProjects/tutorial_with_intellij/RubyOnRailsTutorial2/spec/requests/authentication_pages_spec.rb&#10;_user.ht&#9;FILE&#9;file:///Users/liangcheng/Documents/Work/RubyProjects/tutorial_with_intellij/RubyOnRailsTutorial2/app/views/users/_user.html.erb&#10;user_para&#9;null&#9;null&#10;sample&#9;FILE&#9;file:///Users/liangcheng/Documents/Work/RubyProjects/tutorial_with_intellij/RubyOnRailsTutorial2/lib/tasks/sample_data.rake&#10;user_spec&#9;FILE&#9;file:///Users/liangcheng/Documents/Work/RubyProjects/tutorial_with_intellij/RubyOnRailsTutorial2/spec/requests/users_spec.rb&#10;index.html&#9;FILE&#9;file:///Users/liangcheng/Documents/Work/RubyProjects/tutorial_with_intellij/RubyOnRailsTutorial2/app/views/users/index.html.erb&#10;users_&#9;FILE&#9;file:///Users/liangcheng/Documents/Work/RubyProjects/tutorial_with_intellij/RubyOnRailsTutorial2/app/controllers/users_controller.rb&#10;index.h&#9;FILE&#9;file:///Users/liangcheng/Documents/Work/RubyProjects/tutorial_with_intellij/RubyOnRailsTutorial2/app/views/users/index.html.erb&#10;factori&#9;FILE&#9;file:///Users/liangcheng/Documents/Work/RubyProjects/tutorial_with_intellij/RubyOnRailsTutorial2/spec/factories.rb&#10;gemfile&#9;FILE&#9;file:///Users/liangcheng/Documents/Work/RubyProjects/tutorial_with_intellij/RubyOnRailsTutorial2/Gemfile&#10;_header&#9;FILE&#9;file:///Users/liangcheng/Documents/Work/RubyProjects/tutorial_with_intellij/RubyOnRailsTutorial2/app/views/layouts/_header.html.erb&#10;custom&#9;FILE&#9;file:///Users/liangcheng/Documents/Work/RubyProjects/tutorial_with_intellij/RubyOnRailsTutorial2/app/assets/stylesheets/custom.css.scss&#10;index.html.&#9;FILE&#9;file:///Users/liangcheng/Documents/Work/RubyProjects/tutorial_with_intellij/RubyOnRailsTutorial2/app/views/users/index.html.erb&#10;users_contro&#9;FILE&#9;file:///Users/liangcheng/Documents/Work/RubyProjects/tutorial_with_intellij/RubyOnRailsTutorial2/app/controllers/users_controller.rb&#10;signed_in&#9;null&#9;null&#10;signed_in_user&#9;null&#9;null&#10;signedin&#9;null&#9;null&#10;sessions&#9;FILE&#9;file:///Users/liangcheng/Documents/Work/RubyProjects/tutorial_with_intellij/RubyOnRailsTutorial2/app/controllers/sessions_controller.rb&#10;users_control&#9;FILE&#9;file:///Users/liangcheng/Documents/Work/RubyProjects/tutorial_with_intellij/RubyOnRailsTutorial2/app/controllers/users_controller.rb&#10;session_hel&#9;FILE&#9;file:///Users/liangcheng/Documents/Work/RubyProjects/tutorial_with_intellij/RubyOnRailsTutorial2/app/helpers/sessions_helper.rb&#10;users_spec&#9;FILE&#9;file:///Users/liangcheng/Documents/Work/RubyProjects/tutorial_with_intellij/RubyOnRailsTutorial2/spec/requests/users_spec.rb&#10;sessions_help&#9;FILE&#9;file:///Users/liangcheng/Documents/Work/RubyProjects/tutorial_with_intellij/RubyOnRailsTutorial2/app/helpers/sessions_helper.rb&#10;routes&#9;FILE&#9;file:///Users/liangcheng/Documents/Work/RubyProjects/tutorial_with_intellij/RubyOnRailsTutorial2/config/routes.rb&#10;header&#9;FILE&#9;file:///Users/liangcheng/Documents/Work/RubyProjects/tutorial_with_intellij/RubyOnRailsTutorial2/app/views/layouts/_header.html.erb&#10;authentication&#9;FILE&#9;file:///Users/liangcheng/Documents/Work/RubyProjects/tutorial_with_intellij/RubyOnRailsTutorial2/spec/requests/authentication_pages_spec.rb&#10;Gemfil&#9;FILE&#9;file:///Users/liangcheng/Documents/Work/RubyProjects/tutorial_with_intellij/RubyOnRailsTutorial2/Gemfile&#10;application&#9;FILE&#9;file:///Users/liangcheng/Documents/Work/RubyProjects/tutorial_with_intellij/RubyOnRailsTutorial2/app/views/layouts/application.html.erb&#10;user_page&#9;FILE&#9;file:///Users/liangcheng/Documents/Work/RubyProjects/tutorial_with_intellij/RubyOnRailsTutorial2/spec/requests/user_pages_spec.rb&#10;signin&#9;null&#9;null&#10;gem&#9;FILE&#9;file:///Users/liangcheng/Documents/Work/RubyProjects/tutorial_with_intellij/RubyOnRailsTutorial2/Gemfile&#10;session_h&#9;FILE&#9;file:///Users/liangcheng/Documents/Work/RubyProjects/tutorial_with_intellij/RubyOnRailsTutorial2/app/helpers/sessions_helper.rb&#10;authent&#9;FILE&#9;file:///Users/liangcheng/Documents/Work/RubyProjects/tutorial_with_intellij/RubyOnRailsTutorial2/spec/requests/authentication_pages_spec.rb&#10;application.js&#9;FILE&#9;file:///Users/liangcheng/Documents/Work/RubyProjects/tutorial_with_intellij/RubyOnRailsTutorial2/app/assets/javascripts/application.js&#10;user.rb&#9;FILE&#9;file:///Users/liangcheng/Documents/Work/RubyProjects/tutorial_with_intellij/RubyOnRailsTutorial2/app/models/user.rb&#10;application_con&#9;FILE&#9;file:///Users/liangcheng/Documents/Work/RubyProjects/tutorial_with_intellij/RubyOnRailsTutorial2/app/controllers/application_controller.rb&#10;sessions_con&#9;FILE&#9;file:///Users/liangcheng/Documents/Work/RubyProjects/tutorial_with_intellij/RubyOnRailsTutorial2/app/controllers/sessions_controller.rb" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -1297,7 +1313,7 @@
       <workItem from="1398622291106" duration="332000" />
       <workItem from="1398622982827" duration="20668000" />
       <workItem from="1399051668396" duration="1897000" />
-      <workItem from="1399173812079" duration="21247000" />
+      <workItem from="1399173812079" duration="22167000" />
     </task>
     <task id="LOCAL-00001" summary="Just testing the commit">
       <created>1396589807013</created>
@@ -1311,7 +1327,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="83097000" />
+    <option name="totallyTimeSpent" value="84017000" />
   </component>
   <component name="TodoView" selected-index="0">
     <todo-panel id="selected-file">
@@ -1341,7 +1357,7 @@
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.44253632" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2655218" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32628798" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -1552,14 +1568,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/spec/controllers/users_controller_spec.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.33333334" vertical-offset="357" max-vertical-offset="2490">
-          <caret line="34" column="13" selection-start-line="34" selection-start-column="13" selection-end-line="34" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Gemfile">
       <provider editor-type-id="com.intellij.persistence.database.editor.CsvTableFileEditorProvider">
         <state />
@@ -1683,34 +1691,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/spec/requests/user_pages_spec.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="1.0279188" vertical-offset="30" max-vertical-offset="2280">
-          <caret line="29" column="0" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/views/sessions/new.html.erb">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-6.25" vertical-offset="0" max-vertical-offset="555">
           <caret line="10" column="36" selection-start-line="10" selection-start-column="36" selection-end-line="10" selection-end-column="36" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spec/factories.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.07462686" vertical-offset="0" max-vertical-offset="402">
-          <caret line="2" column="26" selection-start-line="2" selection-start-column="26" selection-end-line="2" selection-end-column="26" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spec/support/utilities.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.52238804" vertical-offset="45" max-vertical-offset="615">
-          <caret line="17" column="4" selection-start-line="17" selection-start-column="4" selection-end-line="17" selection-end-column="4" />
           <folding />
         </state>
       </provider>
@@ -1798,10 +1782,42 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/spec/controllers/users_controller_spec.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="867" max-vertical-offset="2490">
+          <caret line="64" column="35" selection-start-line="64" selection-start-column="35" selection-end-line="64" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spec/factories.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="255">
+          <caret line="9" column="7" selection-start-line="9" selection-start-column="7" selection-end-line="9" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spec/support/utilities.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="87" max-vertical-offset="615">
+          <caret line="17" column="4" selection-start-line="17" selection-start-column="4" selection-end-line="17" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/spec/requests/authentication_pages_spec.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.7574124" vertical-offset="1624" max-vertical-offset="2025">
-          <caret line="127" column="5" selection-start-line="127" selection-start-column="5" selection-end-line="127" selection-end-column="5" />
+        <state vertical-scroll-proportion="-0.10795455" vertical-offset="1497" max-vertical-offset="2025">
+          <caret line="96" column="9" selection-start-line="96" selection-start-column="9" selection-end-line="96" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spec/requests/user_pages_spec.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.7703549" vertical-offset="396" max-vertical-offset="2355">
+          <caret line="51" column="48" selection-start-line="51" selection-start-column="48" selection-end-line="51" selection-end-column="48" />
           <folding />
         </state>
       </provider>

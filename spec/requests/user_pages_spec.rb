@@ -8,7 +8,6 @@ describe "User pages" do
   describe "index" do
     let(:user) { FactoryGirl.create(:user) }
 
-
     before(:each) do
       sign_in user
       visit users_path
@@ -65,6 +64,7 @@ describe "User pages" do
     let!(:m1) { FactoryGirl.create(:micropost, user: user, content: "Foo") }
     let!(:m2) { FactoryGirl.create(:micropost, user: user, content: "Bar") }
 
+
     before { visit user_path(user) }
 
     it { should have_content(user.name) }
@@ -73,9 +73,40 @@ describe "User pages" do
     describe "microposts" do
       it { should have_content(m1.content) }
       it { should have_content(m2.content) }
+      let (:micropost_string) { "Micropost".pluralize(user.microposts.count) + ' ('+ user.microposts.count.to_s + ')' }
       it { should have_content(user.microposts.count) }
+      it { should have_content(micropost_string)}
     end
   end
+
+  describe "home page" do
+    let(:user) { FactoryGirl.create(:user) }
+    let!(:posts) { 50.times { FactoryGirl.create(:micropost, user: user) } }
+    let!(:m1) { FactoryGirl.create(:micropost, user: user, content: "Foo") }
+    let!(:m2) { FactoryGirl.create(:micropost, user: user, content: "Bar") }
+    let!(:m3) { FactoryGirl.create(:micropost, user: user, content: "Shit") }
+
+    before(:each) do
+      sign_in user
+      visit root_url
+    end
+
+    describe "microposts side bar" do
+      it { should have_content(m1.content) }
+      it { should have_content(m2.content) }
+      it { should have_content(m3.content) }
+      let (:micropost_string) { user.microposts.count.to_s  + ' ' + "micropost".pluralize(user.microposts.count) }
+      it { should have_content(micropost_string)}
+    end
+
+    describe "microposts pagination" do
+
+      it { should have_selector('div.pagination') }
+    end
+
+  end
+
+
 
   describe "signup page" do
     before { visit signup_path }

@@ -2,11 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9942fb11-67f5-4e01-9386-3003e52d3143" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/shared/_feed_item.html.erb" afterPath="$PROJECT_DIR$/app/views/shared/_feed_item.html.erb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/microposts/_micropost.html.erb" afterPath="$PROJECT_DIR$/app/views/microposts/_micropost.html.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spec/requests/micropost_pages_spec.rb" afterPath="$PROJECT_DIR$/spec/requests/micropost_pages_spec.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/microposts_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/microposts_controller.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spec/factories.rb" afterPath="$PROJECT_DIR$/spec/factories.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/helpers/microposts_helper.rb" afterPath="$PROJECT_DIR$/app/helpers/microposts_helper.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spec/requests/user_pages_spec.rb" afterPath="$PROJECT_DIR$/spec/requests/user_pages_spec.rb" />
     </list>
     <ignored path="sample_app2.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -19,7 +18,7 @@
   <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/sample_app2@Production__sample_app2.coverage" NAME="Production: sample_app2 Coverage Results" MODIFIED="1399271263279" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="sample_app2" />
-    <SUITE FILE_PATH="coverage/sample_app2@Development__sample_app2.coverage" NAME="Development: sample_app2 Coverage Results" MODIFIED="1399503615012" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="sample_app2" />
+    <SUITE FILE_PATH="coverage/sample_app2@Development__sample_app2.coverage" NAME="Development: sample_app2 Coverage Results" MODIFIED="1399532058980" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="sample_app2" />
   </component>
   <component name="CreatePatchCommitExecutor">
     <option name="PATCH_PATH" value="" />
@@ -64,8 +63,8 @@
         <option name="LOG_MESSAGE" value="" />
       </breakpoint>
     </breakpoint_any>
-    <ui_properties converted="true" />
     <breakpoint_rules converted="true" />
+    <ui_properties converted="true" />
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FavoritesManager">
@@ -73,73 +72,61 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="sample_data.rake" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="sample_data.rake" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/lib/tasks/sample_data.rake">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="135" max-vertical-offset="630">
+            <state vertical-scroll-proportion="0.39951575" vertical-offset="0" max-vertical-offset="630">
               <caret line="11" column="48" selection-start-line="11" selection-start-column="23" selection-end-line="11" selection-end-column="48" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="sessions_helper.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/helpers/sessions_helper.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="176" max-vertical-offset="810">
-              <caret line="21" column="6" selection-start-line="21" selection-start-column="6" selection-end-line="21" selection-end-column="6" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="static_pages_controller.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/controllers/static_pages_controller.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="330">
-              <caret line="3" column="79" selection-start-line="3" selection-start-column="79" selection-end-line="3" selection-end-column="79" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="_feed_item.html.erb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/views/shared/_feed_item.html.erb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-5.0" vertical-offset="0" max-vertical-offset="300">
-              <caret line="8" column="4" selection-start-line="8" selection-start-column="4" selection-end-line="8" selection-end-column="4" />
-              <folding>
-                <marker date="1399530114000" expanded="true" signature="410:559" placeholder="&lt;%=...%&gt;" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="microposts_controller.rb" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="microposts_controller.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/controllers/microposts_controller.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-0.17942584" vertical-offset="195" max-vertical-offset="615">
-              <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="615">
+              <caret line="20" column="13" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="show.html.erb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/views/users/show.html.erb">
+      <file leaf-file-name="user_pages_spec.rb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/spec/requests/user_pages_spec.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-12.5" vertical-offset="0" max-vertical-offset="615">
-              <caret line="20" column="10" selection-start-line="20" selection-start-column="10" selection-end-line="20" selection-end-column="10" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="1268" max-vertical-offset="3030">
+              <caret line="105" column="0" selection-start-line="105" selection-start-column="0" selection-end-line="105" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="show.html.erb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/views/microposts/show.html.erb">
+      <file leaf-file-name="microposts_helper.rb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/helpers/microposts_helper.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-0.625" vertical-offset="0" max-vertical-offset="300">
-              <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="315">
+              <caret line="7" column="46" selection-start-line="7" selection-start-column="46" selection-end-line="7" selection-end-column="46" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="micropost_spec.rb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/spec/models/micropost_spec.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="570">
+              <caret line="4" column="15" selection-start-line="4" selection-start-column="15" selection-end-line="4" selection-end-column="15" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="home.html.erb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/views/static_pages/home.html.erb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-10.625" vertical-offset="60" max-vertical-offset="540">
+              <caret line="21" column="35" selection-start-line="21" selection-start-column="35" selection-end-line="21" selection-end-column="35" />
               <folding />
             </state>
           </provider>
@@ -149,7 +136,7 @@
         <entry file="file://$PROJECT_DIR$/spec/requests/micropost_pages_spec.rb">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="735">
-              <caret line="42" column="5" selection-start-line="42" selection-start-column="5" selection-end-line="42" selection-end-column="5" />
+              <caret line="6" column="15" selection-start-line="6" selection-start-column="15" selection-end-line="6" selection-end-column="15" />
               <folding />
             </state>
           </provider>
@@ -158,18 +145,28 @@
       <file leaf-file-name="_micropost.html.erb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/microposts/_micropost.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-5.0" vertical-offset="0" max-vertical-offset="240">
-              <caret line="8" column="47" selection-start-line="8" selection-start-column="47" selection-end-line="8" selection-end-column="47" />
+            <state vertical-scroll-proportion="-0.625" vertical-offset="0" max-vertical-offset="240">
+              <caret line="1" column="31" selection-start-line="1" selection-start-column="31" selection-end-line="1" selection-end-column="31" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="users_controller.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/controllers/users_controller.rb">
+      <file leaf-file-name="base.rb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$USER_HOME$/.rvm/gems/ruby-2.0.0-p353/gems/activerecord-deprecated_finders-1.0.3/lib/active_record/deprecated_finders/base.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="1215" max-vertical-offset="1905">
-              <caret line="90" column="5" selection-start-line="90" selection-start-column="5" selection-end-line="90" selection-end-column="5" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2355">
+              <caret line="5" column="15" selection-start-line="5" selection-start-column="15" selection-end-line="5" selection-end-column="15" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="authentication_pages_spec.rb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/spec/requests/authentication_pages_spec.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="1833" max-vertical-offset="2235">
+              <caret line="132" column="24" selection-start-line="132" selection-start-column="24" selection-end-line="132" selection-end-column="24" />
               <folding />
             </state>
           </provider>
@@ -193,7 +190,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/app/views/layouts/_footer.html.erb" />
         <option value="$PROJECT_DIR$/spec/helpers/application_helper_spec.rb" />
         <option value="$PROJECT_DIR$/db/migrate/20140429225250_add_index_to_users_email.rb" />
         <option value="$PROJECT_DIR$/config/application.rb" />
@@ -219,9 +215,7 @@
         <option value="$PROJECT_DIR$/app/views/layouts/application.html.erb" />
         <option value="$PROJECT_DIR$/db/migrate/20140507060601_add_index_to_microposts.rb" />
         <option value="$PROJECT_DIR$/app/models/micropost.rb" />
-        <option value="$PROJECT_DIR$/spec/factories.rb" />
         <option value="$PROJECT_DIR$/spec/models/micropost_spec.rb" />
-        <option value="$PROJECT_DIR$/spec/requests/user_pages_spec.rb" />
         <option value="$PROJECT_DIR$/lib/tasks/sample_data.rake" />
         <option value="$PROJECT_DIR$/app/assets/stylesheets/custom.css.scss" />
         <option value="$PROJECT_DIR$/spec/requests/authentication_pages_spec.rb" />
@@ -239,11 +233,14 @@
         <option value="$PROJECT_DIR$/app/views/shared/_feed.html.erb" />
         <option value="$PROJECT_DIR$/app/views/static_pages/home.html.erb" />
         <option value="$PROJECT_DIR$/app/controllers/static_pages_controller.rb" />
-        <option value="$PROJECT_DIR$/app/views/microposts/_micropost.html.erb" />
         <option value="$PROJECT_DIR$/app/views/shared/_feed_item.html.erb" />
         <option value="$PROJECT_DIR$/spec/requests/micropost_pages_spec.rb" />
         <option value="$PROJECT_DIR$/app/views/users/show.html.erb" />
         <option value="$PROJECT_DIR$/app/controllers/microposts_controller.rb" />
+        <option value="$PROJECT_DIR$/spec/factories.rb" />
+        <option value="$PROJECT_DIR$/spec/requests/user_pages_spec.rb" />
+        <option value="$PROJECT_DIR$/app/helpers/microposts_helper.rb" />
+        <option value="$PROJECT_DIR$/app/views/microposts/_micropost.html.erb" />
       </list>
     </option>
   </component>
@@ -258,8 +255,8 @@
     <treeState />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="25" />
-    <option name="y" value="22" />
+    <option name="x" value="37" />
+    <option name="y" value="30" />
     <option name="width" value="1379" />
     <option name="height" value="873" />
   </component>
@@ -289,6 +286,9 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
+      <pane id="RailsProjectView" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -791,9 +791,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
-      <pane id="RailsProjectView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -810,7 +807,7 @@
     <property name="options.splitter.details.proportions" value="0.2" />
     <property name="options.searchVisible" value="true" />
     <property name="restartRequiresConfirmation" value="true" />
-    <property name="SearchEverywhereHistoryKey" value="show.html.erb&#9;FILE&#9;file:///Users/liangcheng/Documents/Work/RubyProjects/tutorial_with_intellij/RubyOnRailsTutorial2/app/views/microposts/show.html.erb&#10;show.html&#9;FILE&#9;file:///Users/liangcheng/Documents/Work/RubyProjects/tutorial_with_intellij/RubyOnRailsTutorial2/app/views/users/show.html.erb&#10;user_contro&#9;FILE&#9;file:///Users/liangcheng/Documents/Work/RubyProjects/tutorial_with_intellij/RubyOnRailsTutorial2/app/controllers/users_controller.rb&#10;microposts_contr&#9;FILE&#9;file:///Users/liangcheng/Documents/Work/RubyProjects/tutorial_with_intellij/RubyOnRailsTutorial2/app/controllers/microposts_controller.rb&#10;micropost_pa&#9;FILE&#9;file:///Users/liangcheng/Documents/Work/RubyProjects/tutorial_with_intellij/RubyOnRailsTutorial2/spec/requests/micropost_pages_spec.rb&#10;_feed_item&#9;FILE&#9;file:///Users/liangcheng/Documents/Work/RubyProjects/tutorial_with_intellij/RubyOnRailsTutorial2/app/views/shared/_feed_item.html.erb&#10;_micro&#9;FILE&#9;file:///Users/liangcheng/Documents/Work/RubyProjects/tutorial_with_intellij/RubyOnRailsTutorial2/app/views/microposts/_micropost.html.erb&#10;sample&#9;FILE&#9;file:///Users/liangcheng/Documents/Work/RubyProjects/tutorial_with_intellij/RubyOnRailsTutorial2/lib/tasks/sample_data.rake&#10;staticpage&#9;FILE&#9;file:///Users/liangcheng/Documents/Work/RubyProjects/tutorial_with_intellij/RubyOnRailsTutorial2/app/controllers/static_pages_controller.rb&#10;home.html.erb&#9;FILE&#9;file:///Users/liangcheng/Documents/Work/RubyProjects/tutorial_with_intellij/RubyOnRailsTutorial2/app/views/static_pages/home.html.erb&#10;static_page&#9;FILE&#9;file:///Users/liangcheng/Documents/Work/RubyProjects/tutorial_with_intellij/RubyOnRailsTutorial2/app/controllers/static_pages_controller.rb&#10;home.html&#9;FILE&#9;file:///Users/liangcheng/Documents/Work/RubyProjects/tutorial_with_intellij/RubyOnRailsTutorial2/app/views/static_pages/home.html.erb&#10;static_p&#9;FILE&#9;file:///Users/liangcheng/Documents/Work/RubyProjects/tutorial_with_intellij/RubyOnRailsTutorial2/app/controllers/static_pages_controller.rb&#10;static_pages_spec&#9;FILE&#9;file:///Users/liangcheng/Documents/Work/RubyProjects/tutorial_with_intellij/RubyOnRailsTutorial2/spec/requests/static_pages_spec.rb&#10;user.rb&#9;FILE&#9;file:///Users/liangcheng/Documents/Work/RubyProjects/tutorial_with_intellij/RubyOnRailsTutorial2/app/models/user.rb&#10;micropost_&#9;FILE&#9;file:///Users/liangcheng/Documents/Work/RubyProjects/tutorial_with_intellij/RubyOnRailsTutorial2/app/controllers/microposts_controller.rb&#10;user_con&#9;FILE&#9;file:///Users/liangcheng/Documents/Work/RubyProjects/tutorial_with_intellij/RubyOnRailsTutorial2/app/controllers/users_controller.rb&#10;user_spec&#9;FILE&#9;file:///Users/liangcheng/Documents/Work/RubyProjects/tutorial_with_intellij/RubyOnRailsTutorial2/spec/models/user_spec.rb&#10;edit.html.erb&#9;FILE&#9;file:///Users/liangcheng/Documents/Work/RubyProjects/tutorial_with_intellij/RubyOnRailsTutorial2/app/views/users/edit.html.erb&#10;new.html&#9;FILE&#9;file:///Users/liangcheng/Documents/Work/RubyProjects/tutorial_with_intellij/RubyOnRailsTutorial2/app/views/users/new.html.erb&#10;micropos&#9;FILE&#9;file:///Users/liangcheng/Documents/Work/RubyProjects/tutorial_with_intellij/RubyOnRailsTutorial2/app/views/shared/_micropost_form.html.erb&#10;_erro&#9;FILE&#9;file:///Users/liangcheng/Documents/Work/RubyProjects/tutorial_with_intellij/RubyOnRailsTutorial2/app/views/shared/_error_messages.html.erb&#10;static_pages_con&#9;FILE&#9;file:///Users/liangcheng/Documents/Work/RubyProjects/tutorial_with_intellij/RubyOnRailsTutorial2/app/controllers/static_pages_controller.rb&#10;_user_info&#9;FILE&#9;file:///Users/liangcheng/Documents/Work/RubyProjects/tutorial_with_intellij/RubyOnRailsTutorial2/app/views/shared/_user_info.html.erb&#10;micropost_p&#9;FILE&#9;file:///Users/liangcheng/Documents/Work/RubyProjects/tutorial_with_intellij/RubyOnRailsTutorial2/spec/requests/micropost_pages_spec.rb&#10;micropost&#9;FILE&#9;file:///Users/liangcheng/Documents/Work/RubyProjects/tutorial_with_intellij/RubyOnRailsTutorial2/app/controllers/microposts_controller.rb&#10;users_&#9;FILE&#9;file:///Users/liangcheng/Documents/Work/RubyProjects/tutorial_with_intellij/RubyOnRailsTutorial2/app/controllers/users_controller.rb&#10;signed_in_user&#9;null&#9;null&#10;sessions_hel&#9;FILE&#9;file:///Users/liangcheng/Documents/Work/RubyProjects/tutorial_with_intellij/RubyOnRailsTutorial2/app/helpers/sessions_helper.rb&#10;sessions_helper&#9;FILE&#9;file:///Users/liangcheng/Documents/Work/RubyProjects/tutorial_with_intellij/RubyOnRailsTutorial2/app/helpers/sessions_helper.rb&#10;authentication&#9;FILE&#9;file:///Users/liangcheng/Documents/Work/RubyProjects/tutorial_with_intellij/RubyOnRailsTutorial2/spec/requests/authentication_pages_spec.rb&#10;routes&#9;FILE&#9;file:///Users/liangcheng/Documents/Work/RubyProjects/tutorial_with_intellij/RubyOnRailsTutorial2/config/routes.rb&#10;custom&#9;FILE&#9;file:///Users/liangcheng/Documents/Work/RubyProjects/tutorial_with_intellij/RubyOnRailsTutorial2/app/assets/stylesheets/custom.css.scss&#10;sample_data&#9;FILE&#9;file:///Users/liangcheng/Documents/Work/RubyProjects/tutorial_with_intellij/RubyOnRailsTutorial2/lib/tasks/sample_data.rake&#10;users_contro&#9;FILE&#9;file:///Users/liangcheng/Documents/Work/RubyProjects/tutorial_with_intellij/RubyOnRailsTutorial2/app/controllers/users_controller.rb&#10;show.htm&#9;FILE&#9;file:///Users/liangcheng/Documents/Work/RubyProjects/tutorial_with_intellij/RubyOnRailsTutorial2/app/views/users/show.html.erb&#10;user_pages&#9;FILE&#9;file:///Users/liangcheng/Documents/Work/RubyProjects/tutorial_with_intellij/RubyOnRailsTutorial2/spec/requests/user_pages_spec.rb&#10;show.html.er&#9;FILE&#9;file:///Users/liangcheng/Documents/Work/RubyProjects/tutorial_with_intellij/RubyOnRailsTutorial2/app/views/users/show.html.erb&#10;factor&#9;FILE&#9;file:///Users/liangcheng/Documents/Work/RubyProjects/tutorial_with_intellij/RubyOnRailsTutorial2/spec/factories.rb&#10;user_spec.rb&#9;FILE&#9;file:///Users/liangcheng/Documents/Work/RubyProjects/tutorial_with_intellij/RubyOnRailsTutorial2/spec/requests/users_spec.rb&#10;micropost.rb&#9;FILE&#9;file:///Users/liangcheng/Documents/Work/RubyProjects/tutorial_with_intellij/RubyOnRailsTutorial2/app/models/micropost.rb&#10;factories&#9;FILE&#9;file:///Users/liangcheng/Documents/Work/RubyProjects/tutorial_with_intellij/RubyOnRailsTutorial2/spec/factories.rb&#10;samp&#9;FILE&#9;file:///Users/liangcheng/Documents/Work/RubyProjects/tutorial_with_intellij/RubyOnRailsTutorial2/lib/tasks/sample_data.rake&#10;sample_dat&#9;FILE&#9;file:///Users/liangcheng/Documents/Work/RubyProjects/tutorial_with_intellij/RubyOnRailsTutorial2/lib/tasks/sample_data.rake&#10;user_page&#9;FILE&#9;file:///Users/liangcheng/Documents/Work/RubyProjects/tutorial_with_intellij/RubyOnRailsTutorial2/spec/requests/user_pages_spec.rb&#10;factorie&#9;FILE&#9;file:///Users/liangcheng/Documents/Work/RubyProjects/tutorial_with_intellij/RubyOnRailsTutorial2/spec/factories.rb&#10;authenti&#9;FILE&#9;file:///Users/liangcheng/Documents/Work/RubyProjects/tutorial_with_intellij/RubyOnRailsTutorial2/spec/requests/authentication_pages_spec.rb&#10;signed&#9;null&#9;null&#10;store_lo&#9;null&#9;null&#10;store_&#9;null&#9;null" />
+    <property name="SearchEverywhereHistoryKey" value="sample&#9;FILE&#9;file:///Users/liangcheng/Documents/Work/RubyProjects/tutorial_with_intellij/RubyOnRailsTutorial2/lib/tasks/sample_data.rake&#10;microposts_hel&#9;FILE&#9;file:///Users/liangcheng/Documents/Work/RubyProjects/tutorial_with_intellij/RubyOnRailsTutorial2/app/helpers/microposts_helper.rb&#10;microposts_he&#9;FILE&#9;file:///Users/liangcheng/Documents/Work/RubyProjects/tutorial_with_intellij/RubyOnRailsTutorial2/app/helpers/microposts_helper.rb&#10;home&#9;FILE&#9;file:///Users/liangcheng/Documents/Work/RubyProjects/tutorial_with_intellij/RubyOnRailsTutorial2/app/views/static_pages/home.html.erb&#10;static&#9;FILE&#9;file:///Users/liangcheng/Documents/Work/RubyProjects/tutorial_with_intellij/RubyOnRailsTutorial2/spec/requests/static_pages_spec.rb&#10;user_page&#9;FILE&#9;file:///Users/liangcheng/Documents/Work/RubyProjects/tutorial_with_intellij/RubyOnRailsTutorial2/spec/requests/user_pages_spec.rb&#10;show.html.erb&#9;FILE&#9;file:///Users/liangcheng/Documents/Work/RubyProjects/tutorial_with_intellij/RubyOnRailsTutorial2/app/views/microposts/show.html.erb&#10;show.html&#9;FILE&#9;file:///Users/liangcheng/Documents/Work/RubyProjects/tutorial_with_intellij/RubyOnRailsTutorial2/app/views/users/show.html.erb&#10;user_contro&#9;FILE&#9;file:///Users/liangcheng/Documents/Work/RubyProjects/tutorial_with_intellij/RubyOnRailsTutorial2/app/controllers/users_controller.rb&#10;microposts_contr&#9;FILE&#9;file:///Users/liangcheng/Documents/Work/RubyProjects/tutorial_with_intellij/RubyOnRailsTutorial2/app/controllers/microposts_controller.rb&#10;micropost_pa&#9;FILE&#9;file:///Users/liangcheng/Documents/Work/RubyProjects/tutorial_with_intellij/RubyOnRailsTutorial2/spec/requests/micropost_pages_spec.rb&#10;_feed_item&#9;FILE&#9;file:///Users/liangcheng/Documents/Work/RubyProjects/tutorial_with_intellij/RubyOnRailsTutorial2/app/views/shared/_feed_item.html.erb&#10;_micro&#9;FILE&#9;file:///Users/liangcheng/Documents/Work/RubyProjects/tutorial_with_intellij/RubyOnRailsTutorial2/app/views/microposts/_micropost.html.erb&#10;staticpage&#9;FILE&#9;file:///Users/liangcheng/Documents/Work/RubyProjects/tutorial_with_intellij/RubyOnRailsTutorial2/app/controllers/static_pages_controller.rb&#10;home.html.erb&#9;FILE&#9;file:///Users/liangcheng/Documents/Work/RubyProjects/tutorial_with_intellij/RubyOnRailsTutorial2/app/views/static_pages/home.html.erb&#10;static_page&#9;FILE&#9;file:///Users/liangcheng/Documents/Work/RubyProjects/tutorial_with_intellij/RubyOnRailsTutorial2/app/controllers/static_pages_controller.rb&#10;home.html&#9;FILE&#9;file:///Users/liangcheng/Documents/Work/RubyProjects/tutorial_with_intellij/RubyOnRailsTutorial2/app/views/static_pages/home.html.erb&#10;static_p&#9;FILE&#9;file:///Users/liangcheng/Documents/Work/RubyProjects/tutorial_with_intellij/RubyOnRailsTutorial2/app/controllers/static_pages_controller.rb&#10;static_pages_spec&#9;FILE&#9;file:///Users/liangcheng/Documents/Work/RubyProjects/tutorial_with_intellij/RubyOnRailsTutorial2/spec/requests/static_pages_spec.rb&#10;user.rb&#9;FILE&#9;file:///Users/liangcheng/Documents/Work/RubyProjects/tutorial_with_intellij/RubyOnRailsTutorial2/app/models/user.rb&#10;micropost_&#9;FILE&#9;file:///Users/liangcheng/Documents/Work/RubyProjects/tutorial_with_intellij/RubyOnRailsTutorial2/app/controllers/microposts_controller.rb&#10;user_con&#9;FILE&#9;file:///Users/liangcheng/Documents/Work/RubyProjects/tutorial_with_intellij/RubyOnRailsTutorial2/app/controllers/users_controller.rb&#10;user_spec&#9;FILE&#9;file:///Users/liangcheng/Documents/Work/RubyProjects/tutorial_with_intellij/RubyOnRailsTutorial2/spec/models/user_spec.rb&#10;edit.html.erb&#9;FILE&#9;file:///Users/liangcheng/Documents/Work/RubyProjects/tutorial_with_intellij/RubyOnRailsTutorial2/app/views/users/edit.html.erb&#10;new.html&#9;FILE&#9;file:///Users/liangcheng/Documents/Work/RubyProjects/tutorial_with_intellij/RubyOnRailsTutorial2/app/views/users/new.html.erb&#10;micropos&#9;FILE&#9;file:///Users/liangcheng/Documents/Work/RubyProjects/tutorial_with_intellij/RubyOnRailsTutorial2/app/views/shared/_micropost_form.html.erb&#10;_erro&#9;FILE&#9;file:///Users/liangcheng/Documents/Work/RubyProjects/tutorial_with_intellij/RubyOnRailsTutorial2/app/views/shared/_error_messages.html.erb&#10;static_pages_con&#9;FILE&#9;file:///Users/liangcheng/Documents/Work/RubyProjects/tutorial_with_intellij/RubyOnRailsTutorial2/app/controllers/static_pages_controller.rb&#10;_user_info&#9;FILE&#9;file:///Users/liangcheng/Documents/Work/RubyProjects/tutorial_with_intellij/RubyOnRailsTutorial2/app/views/shared/_user_info.html.erb&#10;micropost_p&#9;FILE&#9;file:///Users/liangcheng/Documents/Work/RubyProjects/tutorial_with_intellij/RubyOnRailsTutorial2/spec/requests/micropost_pages_spec.rb&#10;micropost&#9;FILE&#9;file:///Users/liangcheng/Documents/Work/RubyProjects/tutorial_with_intellij/RubyOnRailsTutorial2/app/controllers/microposts_controller.rb&#10;users_&#9;FILE&#9;file:///Users/liangcheng/Documents/Work/RubyProjects/tutorial_with_intellij/RubyOnRailsTutorial2/app/controllers/users_controller.rb&#10;signed_in_user&#9;null&#9;null&#10;sessions_hel&#9;FILE&#9;file:///Users/liangcheng/Documents/Work/RubyProjects/tutorial_with_intellij/RubyOnRailsTutorial2/app/helpers/sessions_helper.rb&#10;sessions_helper&#9;FILE&#9;file:///Users/liangcheng/Documents/Work/RubyProjects/tutorial_with_intellij/RubyOnRailsTutorial2/app/helpers/sessions_helper.rb&#10;authentication&#9;FILE&#9;file:///Users/liangcheng/Documents/Work/RubyProjects/tutorial_with_intellij/RubyOnRailsTutorial2/spec/requests/authentication_pages_spec.rb&#10;routes&#9;FILE&#9;file:///Users/liangcheng/Documents/Work/RubyProjects/tutorial_with_intellij/RubyOnRailsTutorial2/config/routes.rb&#10;custom&#9;FILE&#9;file:///Users/liangcheng/Documents/Work/RubyProjects/tutorial_with_intellij/RubyOnRailsTutorial2/app/assets/stylesheets/custom.css.scss&#10;sample_data&#9;FILE&#9;file:///Users/liangcheng/Documents/Work/RubyProjects/tutorial_with_intellij/RubyOnRailsTutorial2/lib/tasks/sample_data.rake&#10;users_contro&#9;FILE&#9;file:///Users/liangcheng/Documents/Work/RubyProjects/tutorial_with_intellij/RubyOnRailsTutorial2/app/controllers/users_controller.rb&#10;show.htm&#9;FILE&#9;file:///Users/liangcheng/Documents/Work/RubyProjects/tutorial_with_intellij/RubyOnRailsTutorial2/app/views/users/show.html.erb&#10;user_pages&#9;FILE&#9;file:///Users/liangcheng/Documents/Work/RubyProjects/tutorial_with_intellij/RubyOnRailsTutorial2/spec/requests/user_pages_spec.rb&#10;show.html.er&#9;FILE&#9;file:///Users/liangcheng/Documents/Work/RubyProjects/tutorial_with_intellij/RubyOnRailsTutorial2/app/views/users/show.html.erb&#10;factor&#9;FILE&#9;file:///Users/liangcheng/Documents/Work/RubyProjects/tutorial_with_intellij/RubyOnRailsTutorial2/spec/factories.rb&#10;user_spec.rb&#9;FILE&#9;file:///Users/liangcheng/Documents/Work/RubyProjects/tutorial_with_intellij/RubyOnRailsTutorial2/spec/requests/users_spec.rb&#10;micropost.rb&#9;FILE&#9;file:///Users/liangcheng/Documents/Work/RubyProjects/tutorial_with_intellij/RubyOnRailsTutorial2/app/models/micropost.rb&#10;factories&#9;FILE&#9;file:///Users/liangcheng/Documents/Work/RubyProjects/tutorial_with_intellij/RubyOnRailsTutorial2/spec/factories.rb&#10;samp&#9;FILE&#9;file:///Users/liangcheng/Documents/Work/RubyProjects/tutorial_with_intellij/RubyOnRailsTutorial2/lib/tasks/sample_data.rake&#10;sample_dat&#9;FILE&#9;file:///Users/liangcheng/Documents/Work/RubyProjects/tutorial_with_intellij/RubyOnRailsTutorial2/lib/tasks/sample_data.rake&#10;factorie&#9;FILE&#9;file:///Users/liangcheng/Documents/Work/RubyProjects/tutorial_with_intellij/RubyOnRailsTutorial2/spec/factories.rb" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -1350,6 +1347,7 @@
       <workItem from="1399051668396" duration="1897000" />
       <workItem from="1399173812079" duration="29213000" />
       <workItem from="1399503413272" duration="3205000" />
+      <workItem from="1399532047985" duration="4377000" />
     </task>
     <task id="LOCAL-00001" summary="Just testing the commit">
       <created>1396589807013</created>
@@ -1363,7 +1361,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="94268000" />
+    <option name="totallyTimeSpent" value="98645000" />
   </component>
   <component name="TodoView" selected-index="0">
     <todo-panel id="selected-file">
@@ -1386,14 +1384,15 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="25" y="22" width="1379" height="873" extended-state="0" />
+    <frame x="37" y="30" width="1379" height="873" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.38044915" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.38705418" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4015852" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -1408,11 +1407,10 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.26477188" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4319683" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.34478202" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4015852" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3276316" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
@@ -1446,33 +1444,10 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/features/step_definitions/authentication_steps.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="42" max-vertical-offset="525">
-          <caret line="13" column="10" selection-start-line="13" selection-start-column="10" selection-end-line="13" selection-end-column="10" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/layouts/_shim.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="379">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/users/_form.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="465">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/spec/views/users/show.html.erb_spec.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="445">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1508,7 +1483,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="330">
           <caret line="2" column="6" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="6" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1564,32 +1538,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/spec/factories.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="330">
-          <caret line="16" column="3" selection-start-line="16" selection-start-column="3" selection-end-line="16" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spec/requests/user_pages_spec.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="810" max-vertical-offset="2565">
-          <caret line="63" column="4" selection-start-line="63" selection-start-column="4" selection-end-line="63" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/custom.css.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-6.6666665" vertical-offset="3305" max-vertical-offset="3720">
           <caret line="231" column="20" selection-start-line="231" selection-start-column="20" selection-end-line="231" selection-end-column="20" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spec/requests/authentication_pages_spec.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="1277" max-vertical-offset="2235">
-          <caret line="110" column="0" selection-start-line="110" selection-start-column="0" selection-end-line="110" selection-end-column="0" />
         </state>
       </provider>
     </entry>
@@ -1597,14 +1549,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1200">
           <caret line="15" column="23" selection-start-line="15" selection-start-column="23" selection-end-line="15" selection-end-column="23" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spec/models/micropost_spec.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="570">
-          <caret line="5" column="11" selection-start-line="5" selection-start-column="11" selection-end-line="5" selection-end-column="11" />
           <folding />
         </state>
       </provider>
@@ -1621,7 +1565,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-3.75" vertical-offset="0" max-vertical-offset="180">
           <caret line="6" column="9" selection-start-line="6" selection-start-column="9" selection-end-line="6" selection-end-column="9" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1637,7 +1580,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-3.0416667" vertical-offset="17" max-vertical-offset="435">
           <caret line="6" column="64" selection-start-line="6" selection-start-column="64" selection-end-line="6" selection-end-column="64" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1645,7 +1587,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-4.7083335" vertical-offset="37" max-vertical-offset="495">
           <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1713,14 +1654,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/spec/models/user_spec.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="2259" max-vertical-offset="2805">
-          <caret line="177" column="7" selection-start-line="177" selection-start-column="7" selection-end-line="177" selection-end-column="7" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/models/micropost.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="180">
@@ -1737,26 +1670,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/spec/requests/static_pages_spec.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="317" max-vertical-offset="1275">
-          <caret line="28" column="14" selection-start-line="28" selection-start-column="14" selection-end-line="28" selection-end-column="14" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/views/shared/_feed.html.erb">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-3.125" vertical-offset="0" max-vertical-offset="165">
           <caret line="5" column="9" selection-start-line="5" selection-start-column="9" selection-end-line="5" selection-end-column="9" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/static_pages/home.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-2.5" vertical-offset="0" max-vertical-offset="540">
-          <caret line="4" column="48" selection-start-line="4" selection-start-column="48" selection-end-line="4" selection-end-column="48" />
           <folding />
         </state>
       </provider>
@@ -1779,49 +1696,25 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/shared/_feed_item.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-5.0" vertical-offset="0" max-vertical-offset="300">
+        <state vertical-scroll-proportion="0.0" vertical-offset="120" max-vertical-offset="300">
           <caret line="8" column="4" selection-start-line="8" selection-start-column="4" selection-end-line="8" selection-end-column="4" />
           <folding>
-            <marker date="1399530114000" expanded="true" signature="410:559" placeholder="&lt;%=...%&gt;" />
+            <marker date="1399530114000" expanded="true" signature="-1:-1" placeholder="&lt;%=...%&gt;" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/tasks/sample_data.rake">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="135" max-vertical-offset="630">
-          <caret line="11" column="48" selection-start-line="11" selection-start-column="23" selection-end-line="11" selection-end-column="48" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/microposts/_micropost.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-5.0" vertical-offset="0" max-vertical-offset="240">
-          <caret line="8" column="47" selection-start-line="8" selection-start-column="47" selection-end-line="8" selection-end-column="47" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/users/show.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-12.5" vertical-offset="0" max-vertical-offset="615">
+        <state vertical-scroll-proportion="0.0" vertical-offset="300" max-vertical-offset="615">
           <caret line="20" column="10" selection-start-line="20" selection-start-column="10" selection-end-line="20" selection-end-column="10" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spec/requests/micropost_pages_spec.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="242" max-vertical-offset="735">
-          <caret line="42" column="5" selection-start-line="42" selection-start-column="5" selection-end-line="42" selection-end-column="5" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/microposts/show.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.625" vertical-offset="0" max-vertical-offset="300">
+        <state vertical-scroll-proportion="0.0" vertical-offset="15" max-vertical-offset="300">
           <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
           <folding />
         </state>
@@ -1835,10 +1728,114 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/microposts/_form.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-1.875" vertical-offset="0" max-vertical-offset="465">
+          <caret line="3" column="20" selection-start-line="3" selection-start-column="20" selection-end-line="3" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spec/models/user_spec.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="2403" max-vertical-offset="2805">
+          <caret line="171" column="45" selection-start-line="171" selection-start-column="45" selection-end-line="171" selection-end-column="45" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spec/requests/authentication_pages_spec.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="1833" max-vertical-offset="2235">
+          <caret line="132" column="24" selection-start-line="132" selection-start-column="24" selection-end-line="132" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spec/requests/static_pages_spec.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1275">
+          <caret line="25" column="22" selection-start-line="25" selection-start-column="22" selection-end-line="25" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/controllers/microposts_controller.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.17942584" vertical-offset="195" max-vertical-offset="615">
-          <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="615">
+          <caret line="20" column="13" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/static_pages/home.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-10.625" vertical-offset="60" max-vertical-offset="540">
+          <caret line="21" column="35" selection-start-line="21" selection-start-column="35" selection-end-line="21" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spec/requests/micropost_pages_spec.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="735">
+          <caret line="6" column="15" selection-start-line="6" selection-start-column="15" selection-end-line="6" selection-end-column="15" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spec/factories.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.36649215" vertical-offset="0" max-vertical-offset="573">
+          <caret line="14" column="62" selection-start-line="14" selection-start-column="62" selection-end-line="14" selection-end-column="62" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.rvm/gems/ruby-2.0.0-p353/gems/activerecord-deprecated_finders-1.0.3/lib/active_record/deprecated_finders/base.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2355">
+          <caret line="5" column="15" selection-start-line="5" selection-start-column="15" selection-end-line="5" selection-end-column="15" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spec/models/micropost_spec.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="570">
+          <caret line="4" column="15" selection-start-line="4" selection-start-column="15" selection-end-line="4" selection-end-column="15" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spec/requests/user_pages_spec.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="1268" max-vertical-offset="3030">
+          <caret line="105" column="0" selection-start-line="105" selection-start-column="0" selection-end-line="105" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/microposts/_micropost.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.625" vertical-offset="0" max-vertical-offset="240">
+          <caret line="1" column="31" selection-start-line="1" selection-start-column="31" selection-end-line="1" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/helpers/microposts_helper.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="315">
+          <caret line="7" column="46" selection-start-line="7" selection-start-column="46" selection-end-line="7" selection-end-column="46" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/tasks/sample_data.rake">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.39951575" vertical-offset="0" max-vertical-offset="630">
+          <caret line="11" column="48" selection-start-line="11" selection-start-column="23" selection-end-line="11" selection-end-column="48" />
           <folding />
         </state>
       </provider>

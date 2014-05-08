@@ -225,6 +225,8 @@ input {
     border-top: 1px solid #e8e8e8;
   }
 }
+
+
 .content {
   display: block;
 }
@@ -240,4 +242,10 @@ aside {
     height: 100px;
     margin-bottom: 5px;
   }
+}
+
+.field_counter {
+  color: $grayLight;
+  float: right;
+  padding: 0px 0;
 }

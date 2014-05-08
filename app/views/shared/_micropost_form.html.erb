@@ -3,5 +3,27 @@
     <div class="field">
         <%= f.text_area :content, placeholder: "Compose new micropost..." %>
     </div>
+    <div class ="field_counter">
+        140 characters remaining
+    </div>
     <%= f.submit "Post", class: "btn btn-large btn-primary" %>
+
 <% end %>
+
+<script>
+    $('textarea').keyup(function() {
+        var cs = $(this).val().length;
+        $('#micropost_content').text(cs);
+        var cs_remaining = 140 - cs;
+        var cs_text = cs_remaining + " characters remaining";
+        //log ('cs_text: '+cs_text);
+
+        $('.field_counter').text(cs_text);
+    });
+
+    function log(msg) {
+        setTimeout(function() {
+            throw new Error(msg);
+        }, 0);
+    }
+</script>

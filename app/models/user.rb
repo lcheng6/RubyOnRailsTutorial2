@@ -27,6 +27,17 @@ class User < ActiveRecord::Base
     Digest::SHA1.hexdigest(token.to_s)
   end
 
+  def following? (other_user)
+    self.relationships.find_by(followed_id: other_user.id)
+  end
+
+  def follow!(other_user)
+    self.relationships.create!(followed_id: other_user.id)
+  end
+
+  def unfollow!(other_user)
+    self.relationships.find_by(followed_id: other_user.id).destroy
+  end
   private
 
     def create_remember_token

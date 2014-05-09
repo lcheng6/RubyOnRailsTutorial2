@@ -1,4 +1,5 @@
 require 'spec_helper'
+require 'pry-debugger'
 
 describe "Static pages" do
 
@@ -9,6 +10,10 @@ describe "Static pages" do
   shared_examples_for "all static pages" do
     it { should have_selector('h1', text: heading) }
     it { should have_title(full_title(page_title)) }
+    it "should have correct title" do
+      binding.pry
+      should have_title(full_title(page_title))
+    end
   end
 
   describe "Home page" do

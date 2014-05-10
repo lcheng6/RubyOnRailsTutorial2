@@ -156,7 +156,6 @@ describe "User pages" do
       end
     end
   end
-  end
 
   describe "home page" do
     let(:user) { FactoryGirl.create(:user) }

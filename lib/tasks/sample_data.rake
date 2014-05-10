@@ -20,7 +20,7 @@ def make_99_common_users
   99.times do |n|
     name  = Faker::Name.name
     email = "example-#{n+1}@railstutorial.org"
-    password  = "password"
+    password  = "foobar"
     User.create!(name: name,
                  email: email,
                  password: password,

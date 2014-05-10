@@ -4,6 +4,7 @@ namespace :db do
     make_single_admin_user
     make_99_common_users
     make_sample_microposts
+    make_relationships
   end
 end
 
@@ -28,9 +29,19 @@ def make_99_common_users
 end
 
 def make_sample_microposts
-  users = User.all(limit: 6)
+  users = User.all(limit: 50)
   50.times do
     content = Faker::Lorem.sentence(5)
     users.each { |user| user.microposts.create!(content: content) }
   end
+end
+
+
+def make_relationships
+  users = User.all
+  user  = users.first
+  followed_users = users[2..50]
+  followers      = users[3..40]
+  followed_users.each { |followed| user.follow!(followed) }
+  followers.each      { |follower| follower.follow!(user) }
 end

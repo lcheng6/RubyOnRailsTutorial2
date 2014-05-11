@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9942fb11-67f5-4e01-9386-3003e52d3143" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/users/_follow.html.erb" afterPath="$PROJECT_DIR$/app/views/users/_follow.html.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/users/_unfollow.html.erb" afterPath="$PROJECT_DIR$/app/views/users/_unfollow.html.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/relationships_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/relationships_controller.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/models/user.rb" afterPath="$PROJECT_DIR$/app/models/user.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spec/models/user_spec.rb" afterPath="$PROJECT_DIR$/spec/models/user_spec.rb" />
     </list>
     <ignored path="sample_app2.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -93,11 +92,31 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="_unfollow.html.erb" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="_unfollow.html.erb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/users/_unfollow.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.049668875" vertical-offset="0" max-vertical-offset="302">
+            <state vertical-scroll-proportion="-0.625" vertical-offset="0" max-vertical-offset="135">
               <caret line="1" column="38" selection-start-line="1" selection-start-column="38" selection-end-line="1" selection-end-column="38" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="user_spec.rb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/spec/models/user_spec.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-7.1923075" vertical-offset="2528" max-vertical-offset="3345">
+              <caret line="181" column="16" selection-start-line="181" selection-start-column="16" selection-end-line="181" selection-end-column="16" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="user.rb" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/models/user.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.70198673" vertical-offset="417" max-vertical-offset="945">
+              <caret line="49" column="2" selection-start-line="49" selection-start-column="2" selection-end-line="49" selection-end-column="2" />
               <folding />
             </state>
           </provider>
@@ -118,26 +137,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0" vertical-offset="11" max-vertical-offset="420">
               <caret line="20" column="5" selection-start-line="20" selection-start-column="5" selection-end-line="20" selection-end-column="5" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="_micropost.html.erb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/views/microposts/_micropost.html.erb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-1.25" vertical-offset="0" max-vertical-offset="240">
-              <caret line="2" column="10" selection-start-line="2" selection-start-column="10" selection-end-line="2" selection-end-column="10" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="_form.html.erb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/views/microposts/_form.html.erb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="3.9583333" vertical-offset="140" max-vertical-offset="465">
-              <caret line="3" column="20" selection-start-line="3" selection-start-column="20" selection-end-line="3" selection-end-column="20" />
               <folding />
             </state>
           </provider>
@@ -220,8 +219,6 @@
         <option value="$PROJECT_DIR$/db/migrate/20140509031820_create_relationships.rb" />
         <option value="$PROJECT_DIR$/app/models/relationship.rb" />
         <option value="$PROJECT_DIR$/spec/models/relationshiop_spec.rb" />
-        <option value="$PROJECT_DIR$/spec/models/user_spec.rb" />
-        <option value="$PROJECT_DIR$/app/models/user.rb" />
         <option value="$PROJECT_DIR$/app/views/shared/_stats.html.erb" />
         <option value="$PROJECT_DIR$/app/views/static_pages/home.html.erb" />
         <option value="$PROJECT_DIR$/app/assets/stylesheets/custom.css.scss" />
@@ -242,6 +239,8 @@
         <option value="$PROJECT_DIR$/app/controllers/relationships_controller.rb" />
         <option value="$PROJECT_DIR$/app/views/users/_follow.html.erb" />
         <option value="$PROJECT_DIR$/app/views/users/_unfollow.html.erb" />
+        <option value="$PROJECT_DIR$/spec/models/user_spec.rb" />
+        <option value="$PROJECT_DIR$/app/models/user.rb" />
       </list>
     </option>
   </component>
@@ -892,7 +891,7 @@
     <property name="options.splitter.details.proportions" value="0.2" />
     <property name="options.searchVisible" value="true" />
     <property name="restartRequiresConfirmation" value="true" />
-    <property name="SearchEverywhereHistoryKey" value="_unfol&#9;FILE&#9;file:///Users/liangcheng/Documents/Work/RubyProjects/tutorial_with_intellij/RubyOnRailsTutorial2/app/views/users/_unfollow.html.erb&#10;follow&#9;FILE&#9;file:///Users/liangcheng/Documents/Work/RubyProjects/tutorial_with_intellij/RubyOnRailsTutorial2/app/views/users/_follow.html.erb&#10;sample&#9;FILE&#9;file:///Users/liangcheng/Documents/Work/RubyProjects/tutorial_with_intellij/RubyOnRailsTutorial2/lib/tasks/sample_data.rake&#10;relationships_con&#9;FILE&#9;file:///Users/liangcheng/Documents/Work/RubyProjects/tutorial_with_intellij/RubyOnRailsTutorial2/app/controllers/relationships_controller.rb&#10;user&#9;FILE&#9;file:///Users/liangcheng/Documents/Work/RubyProjects/tutorial_with_intellij/RubyOnRailsTutorial2/app/controllers/users_controller.rb&#10;micropost&#9;FILE&#9;file:///Users/liangcheng/Documents/Work/RubyProjects/tutorial_with_intellij/RubyOnRailsTutorial2/app/controllers/microposts_controller.rb&#10;relationship_&#9;FILE&#9;file:///Users/liangcheng/Documents/Work/RubyProjects/tutorial_with_intellij/RubyOnRailsTutorial2/app/controllers/relationships_controller.rb&#10;routes&#9;FILE&#9;file:///Users/liangcheng/Documents/Work/RubyProjects/tutorial_with_intellij/RubyOnRailsTutorial2/config/routes.rb&#10;samp&#9;FILE&#9;file:///Users/liangcheng/Documents/Work/RubyProjects/tutorial_with_intellij/RubyOnRailsTutorial2/lib/tasks/sample_data.rake&#10;gemfile&#9;FILE&#9;file:///Users/liangcheng/Documents/Work/RubyProjects/tutorial_with_intellij/RubyOnRailsTutorial2/Gemfile&#10;header&#9;FILE&#9;file:///Users/liangcheng/Documents/Work/RubyProjects/tutorial_with_intellij/RubyOnRailsTutorial2/app/views/layouts/_header.html.erb&#10;static_pages&#9;FILE&#9;file:///Users/liangcheng/Documents/Work/RubyProjects/tutorial_with_intellij/RubyOnRailsTutorial2/spec/requests/static_pages_spec.rb&#10;user_pages&#9;FILE&#9;file:///Users/liangcheng/Documents/Work/RubyProjects/tutorial_with_intellij/RubyOnRailsTutorial2/spec/requests/user_pages_spec.rb&#10;users_control&#9;FILE&#9;file:///Users/liangcheng/Documents/Work/RubyProjects/tutorial_with_intellij/RubyOnRailsTutorial2/app/controllers/users_controller.rb&#10;_unfollow&#9;FILE&#9;file:///Users/liangcheng/Documents/Work/RubyProjects/tutorial_with_intellij/RubyOnRailsTutorial2/app/views/users/_unfollow.html.erb&#10;_follow.html&#9;FILE&#9;file:///Users/liangcheng/Documents/Work/RubyProjects/tutorial_with_intellij/RubyOnRailsTutorial2/app/views/users/_follow.html.erb&#10;_user.html&#9;FILE&#9;file:///Users/liangcheng/Documents/Work/RubyProjects/tutorial_with_intellij/RubyOnRailsTutorial2/app/views/users/_user.html.erb&#10;authentication_&#9;FILE&#9;file:///Users/liangcheng/Documents/Work/RubyProjects/tutorial_with_intellij/RubyOnRailsTutorial2/spec/requests/authentication_pages_spec.rb&#10;show_follow&#9;FILE&#9;file:///Users/liangcheng/Documents/Work/RubyProjects/tutorial_with_intellij/RubyOnRailsTutorial2/app/views/users/show_follow.html.erb&#10;users_contro&#9;FILE&#9;file:///Users/liangcheng/Documents/Work/RubyProjects/tutorial_with_intellij/RubyOnRailsTutorial2/app/controllers/users_controller.rb&#10;_follow_form.html.erb&#9;FILE&#9;file:///Users/liangcheng/Documents/Work/RubyProjects/tutorial_with_intellij/RubyOnRailsTutorial2/app/views/users/_follow_form.html.erb&#10;_feed&#9;FILE&#9;file:///Users/liangcheng/Documents/Work/RubyProjects/tutorial_with_intellij/RubyOnRailsTutorial2/app/views/shared/_feed_item.html.erb&#10;static_pag&#9;FILE&#9;file:///Users/liangcheng/Documents/Work/RubyProjects/tutorial_with_intellij/RubyOnRailsTutorial2/spec/requests/static_pages_spec.rb&#10;sample_dat&#9;FILE&#9;file:///Users/liangcheng/Documents/Work/RubyProjects/tutorial_with_intellij/RubyOnRailsTutorial2/lib/tasks/sample_data.rake&#10;user_pages_spec&#9;FILE&#9;file:///Users/liangcheng/Documents/Work/RubyProjects/tutorial_with_intellij/RubyOnRailsTutorial2/spec/requests/user_pages_spec.rb&#10;authentication&#9;FILE&#9;file:///Users/liangcheng/Documents/Work/RubyProjects/tutorial_with_intellij/RubyOnRailsTutorial2/spec/requests/authentication_pages_spec.rb&#10;show.html.erb&#9;FILE&#9;file:///Users/liangcheng/Documents/Work/RubyProjects/tutorial_with_intellij/RubyOnRailsTutorial2/app/views/users/show.html.erb&#10;custom&#9;FILE&#9;file:///Users/liangcheng/Documents/Work/RubyProjects/tutorial_with_intellij/RubyOnRailsTutorial2/app/assets/stylesheets/custom.css.scss&#10;home.html&#9;FILE&#9;file:///Users/liangcheng/Documents/Work/RubyProjects/tutorial_with_intellij/RubyOnRailsTutorial2/app/views/static_pages/home.html.erb&#10;static_page&#9;FILE&#9;file:///Users/liangcheng/Documents/Work/RubyProjects/tutorial_with_intellij/RubyOnRailsTutorial2/spec/requests/static_pages_spec.rb&#10;sample_rake&#9;FILE&#9;file:///Users/liangcheng/Documents/Work/RubyProjects/tutorial_with_intellij/RubyOnRailsTutorial2/lib/tasks/sample_data.rake&#10;user.rb&#9;FILE&#9;file:///Users/liangcheng/Documents/Work/RubyProjects/tutorial_with_intellij/RubyOnRailsTutorial2/app/models/user.rb&#10;user_spec&#9;FILE&#9;file:///Users/liangcheng/Documents/Work/RubyProjects/tutorial_with_intellij/RubyOnRailsTutorial2/spec/models/user_spec.rb&#10;relation&#9;FILE&#9;file:///Users/liangcheng/Documents/Work/RubyProjects/tutorial_with_intellij/RubyOnRailsTutorial2/app/models/relationship.rb&#10;relationship&#9;FILE&#9;file:///Users/liangcheng/Documents/Work/RubyProjects/tutorial_with_intellij/RubyOnRailsTutorial2/app/models/relationship.rb&#10;gemfi&#9;FILE&#9;file:///Users/liangcheng/Documents/Work/RubyProjects/tutorial_with_intellij/RubyOnRailsTutorial2/Gemfile&#10;feed_item&#9;FILE&#9;file:///Users/liangcheng/Documents/Work/RubyProjects/tutorial_with_intellij/RubyOnRailsTutorial2/app/views/shared/_feed_item.html.erb&#10;microposts_hel&#9;FILE&#9;file:///Users/liangcheng/Documents/Work/RubyProjects/tutorial_with_intellij/RubyOnRailsTutorial2/app/helpers/microposts_helper.rb&#10;microposts_he&#9;FILE&#9;file:///Users/liangcheng/Documents/Work/RubyProjects/tutorial_with_intellij/RubyOnRailsTutorial2/app/helpers/microposts_helper.rb&#10;home&#9;FILE&#9;file:///Users/liangcheng/Documents/Work/RubyProjects/tutorial_with_intellij/RubyOnRailsTutorial2/app/views/static_pages/home.html.erb&#10;static&#9;FILE&#9;file:///Users/liangcheng/Documents/Work/RubyProjects/tutorial_with_intellij/RubyOnRailsTutorial2/spec/requests/static_pages_spec.rb&#10;user_page&#9;FILE&#9;file:///Users/liangcheng/Documents/Work/RubyProjects/tutorial_with_intellij/RubyOnRailsTutorial2/spec/requests/user_pages_spec.rb&#10;show.html&#9;FILE&#9;file:///Users/liangcheng/Documents/Work/RubyProjects/tutorial_with_intellij/RubyOnRailsTutorial2/app/views/users/show.html.erb&#10;user_contro&#9;FILE&#9;file:///Users/liangcheng/Documents/Work/RubyProjects/tutorial_with_intellij/RubyOnRailsTutorial2/app/controllers/users_controller.rb&#10;microposts_contr&#9;FILE&#9;file:///Users/liangcheng/Documents/Work/RubyProjects/tutorial_with_intellij/RubyOnRailsTutorial2/app/controllers/microposts_controller.rb&#10;micropost_pa&#9;FILE&#9;file:///Users/liangcheng/Documents/Work/RubyProjects/tutorial_with_intellij/RubyOnRailsTutorial2/spec/requests/micropost_pages_spec.rb&#10;_feed_item&#9;FILE&#9;file:///Users/liangcheng/Documents/Work/RubyProjects/tutorial_with_intellij/RubyOnRailsTutorial2/app/views/shared/_feed_item.html.erb&#10;_micro&#9;FILE&#9;file:///Users/liangcheng/Documents/Work/RubyProjects/tutorial_with_intellij/RubyOnRailsTutorial2/app/views/microposts/_micropost.html.erb&#10;staticpage&#9;FILE&#9;file:///Users/liangcheng/Documents/Work/RubyProjects/tutorial_with_intellij/RubyOnRailsTutorial2/app/controllers/static_pages_controller.rb&#10;home.html.erb&#9;FILE&#9;file:///Users/liangcheng/Documents/Work/RubyProjects/tutorial_with_intellij/RubyOnRailsTutorial2/app/views/static_pages/home.html.erb" />
+    <property name="SearchEverywhereHistoryKey" value="user.rb&#9;FILE&#9;file:///Users/liangcheng/Documents/Work/RubyProjects/tutorial_with_intellij/RubyOnRailsTutorial2/app/models/user.rb&#10;user_spec&#9;FILE&#9;file:///Users/liangcheng/Documents/Work/RubyProjects/tutorial_with_intellij/RubyOnRailsTutorial2/spec/models/user_spec.rb&#10;_unfol&#9;FILE&#9;file:///Users/liangcheng/Documents/Work/RubyProjects/tutorial_with_intellij/RubyOnRailsTutorial2/app/views/users/_unfollow.html.erb&#10;follow&#9;FILE&#9;file:///Users/liangcheng/Documents/Work/RubyProjects/tutorial_with_intellij/RubyOnRailsTutorial2/app/views/users/_follow.html.erb&#10;sample&#9;FILE&#9;file:///Users/liangcheng/Documents/Work/RubyProjects/tutorial_with_intellij/RubyOnRailsTutorial2/lib/tasks/sample_data.rake&#10;relationships_con&#9;FILE&#9;file:///Users/liangcheng/Documents/Work/RubyProjects/tutorial_with_intellij/RubyOnRailsTutorial2/app/controllers/relationships_controller.rb&#10;user&#9;FILE&#9;file:///Users/liangcheng/Documents/Work/RubyProjects/tutorial_with_intellij/RubyOnRailsTutorial2/app/controllers/users_controller.rb&#10;micropost&#9;FILE&#9;file:///Users/liangcheng/Documents/Work/RubyProjects/tutorial_with_intellij/RubyOnRailsTutorial2/app/controllers/microposts_controller.rb&#10;relationship_&#9;FILE&#9;file:///Users/liangcheng/Documents/Work/RubyProjects/tutorial_with_intellij/RubyOnRailsTutorial2/app/controllers/relationships_controller.rb&#10;routes&#9;FILE&#9;file:///Users/liangcheng/Documents/Work/RubyProjects/tutorial_with_intellij/RubyOnRailsTutorial2/config/routes.rb&#10;samp&#9;FILE&#9;file:///Users/liangcheng/Documents/Work/RubyProjects/tutorial_with_intellij/RubyOnRailsTutorial2/lib/tasks/sample_data.rake&#10;gemfile&#9;FILE&#9;file:///Users/liangcheng/Documents/Work/RubyProjects/tutorial_with_intellij/RubyOnRailsTutorial2/Gemfile&#10;header&#9;FILE&#9;file:///Users/liangcheng/Documents/Work/RubyProjects/tutorial_with_intellij/RubyOnRailsTutorial2/app/views/layouts/_header.html.erb&#10;static_pages&#9;FILE&#9;file:///Users/liangcheng/Documents/Work/RubyProjects/tutorial_with_intellij/RubyOnRailsTutorial2/spec/requests/static_pages_spec.rb&#10;user_pages&#9;FILE&#9;file:///Users/liangcheng/Documents/Work/RubyProjects/tutorial_with_intellij/RubyOnRailsTutorial2/spec/requests/user_pages_spec.rb&#10;users_control&#9;FILE&#9;file:///Users/liangcheng/Documents/Work/RubyProjects/tutorial_with_intellij/RubyOnRailsTutorial2/app/controllers/users_controller.rb&#10;_unfollow&#9;FILE&#9;file:///Users/liangcheng/Documents/Work/RubyProjects/tutorial_with_intellij/RubyOnRailsTutorial2/app/views/users/_unfollow.html.erb&#10;_follow.html&#9;FILE&#9;file:///Users/liangcheng/Documents/Work/RubyProjects/tutorial_with_intellij/RubyOnRailsTutorial2/app/views/users/_follow.html.erb&#10;_user.html&#9;FILE&#9;file:///Users/liangcheng/Documents/Work/RubyProjects/tutorial_with_intellij/RubyOnRailsTutorial2/app/views/users/_user.html.erb&#10;authentication_&#9;FILE&#9;file:///Users/liangcheng/Documents/Work/RubyProjects/tutorial_with_intellij/RubyOnRailsTutorial2/spec/requests/authentication_pages_spec.rb&#10;show_follow&#9;FILE&#9;file:///Users/liangcheng/Documents/Work/RubyProjects/tutorial_with_intellij/RubyOnRailsTutorial2/app/views/users/show_follow.html.erb&#10;users_contro&#9;FILE&#9;file:///Users/liangcheng/Documents/Work/RubyProjects/tutorial_with_intellij/RubyOnRailsTutorial2/app/controllers/users_controller.rb&#10;_follow_form.html.erb&#9;FILE&#9;file:///Users/liangcheng/Documents/Work/RubyProjects/tutorial_with_intellij/RubyOnRailsTutorial2/app/views/users/_follow_form.html.erb&#10;_feed&#9;FILE&#9;file:///Users/liangcheng/Documents/Work/RubyProjects/tutorial_with_intellij/RubyOnRailsTutorial2/app/views/shared/_feed_item.html.erb&#10;static_pag&#9;FILE&#9;file:///Users/liangcheng/Documents/Work/RubyProjects/tutorial_with_intellij/RubyOnRailsTutorial2/spec/requests/static_pages_spec.rb&#10;sample_dat&#9;FILE&#9;file:///Users/liangcheng/Documents/Work/RubyProjects/tutorial_with_intellij/RubyOnRailsTutorial2/lib/tasks/sample_data.rake&#10;user_pages_spec&#9;FILE&#9;file:///Users/liangcheng/Documents/Work/RubyProjects/tutorial_with_intellij/RubyOnRailsTutorial2/spec/requests/user_pages_spec.rb&#10;authentication&#9;FILE&#9;file:///Users/liangcheng/Documents/Work/RubyProjects/tutorial_with_intellij/RubyOnRailsTutorial2/spec/requests/authentication_pages_spec.rb&#10;show.html.erb&#9;FILE&#9;file:///Users/liangcheng/Documents/Work/RubyProjects/tutorial_with_intellij/RubyOnRailsTutorial2/app/views/users/show.html.erb&#10;custom&#9;FILE&#9;file:///Users/liangcheng/Documents/Work/RubyProjects/tutorial_with_intellij/RubyOnRailsTutorial2/app/assets/stylesheets/custom.css.scss&#10;home.html&#9;FILE&#9;file:///Users/liangcheng/Documents/Work/RubyProjects/tutorial_with_intellij/RubyOnRailsTutorial2/app/views/static_pages/home.html.erb&#10;static_page&#9;FILE&#9;file:///Users/liangcheng/Documents/Work/RubyProjects/tutorial_with_intellij/RubyOnRailsTutorial2/spec/requests/static_pages_spec.rb&#10;sample_rake&#9;FILE&#9;file:///Users/liangcheng/Documents/Work/RubyProjects/tutorial_with_intellij/RubyOnRailsTutorial2/lib/tasks/sample_data.rake&#10;relation&#9;FILE&#9;file:///Users/liangcheng/Documents/Work/RubyProjects/tutorial_with_intellij/RubyOnRailsTutorial2/app/models/relationship.rb&#10;relationship&#9;FILE&#9;file:///Users/liangcheng/Documents/Work/RubyProjects/tutorial_with_intellij/RubyOnRailsTutorial2/app/models/relationship.rb&#10;gemfi&#9;FILE&#9;file:///Users/liangcheng/Documents/Work/RubyProjects/tutorial_with_intellij/RubyOnRailsTutorial2/Gemfile&#10;feed_item&#9;FILE&#9;file:///Users/liangcheng/Documents/Work/RubyProjects/tutorial_with_intellij/RubyOnRailsTutorial2/app/views/shared/_feed_item.html.erb&#10;microposts_hel&#9;FILE&#9;file:///Users/liangcheng/Documents/Work/RubyProjects/tutorial_with_intellij/RubyOnRailsTutorial2/app/helpers/microposts_helper.rb&#10;microposts_he&#9;FILE&#9;file:///Users/liangcheng/Documents/Work/RubyProjects/tutorial_with_intellij/RubyOnRailsTutorial2/app/helpers/microposts_helper.rb&#10;home&#9;FILE&#9;file:///Users/liangcheng/Documents/Work/RubyProjects/tutorial_with_intellij/RubyOnRailsTutorial2/app/views/static_pages/home.html.erb&#10;static&#9;FILE&#9;file:///Users/liangcheng/Documents/Work/RubyProjects/tutorial_with_intellij/RubyOnRailsTutorial2/spec/requests/static_pages_spec.rb&#10;user_page&#9;FILE&#9;file:///Users/liangcheng/Documents/Work/RubyProjects/tutorial_with_intellij/RubyOnRailsTutorial2/spec/requests/user_pages_spec.rb&#10;show.html&#9;FILE&#9;file:///Users/liangcheng/Documents/Work/RubyProjects/tutorial_with_intellij/RubyOnRailsTutorial2/app/views/users/show.html.erb&#10;user_contro&#9;FILE&#9;file:///Users/liangcheng/Documents/Work/RubyProjects/tutorial_with_intellij/RubyOnRailsTutorial2/app/controllers/users_controller.rb&#10;microposts_contr&#9;FILE&#9;file:///Users/liangcheng/Documents/Work/RubyProjects/tutorial_with_intellij/RubyOnRailsTutorial2/app/controllers/microposts_controller.rb&#10;micropost_pa&#9;FILE&#9;file:///Users/liangcheng/Documents/Work/RubyProjects/tutorial_with_intellij/RubyOnRailsTutorial2/spec/requests/micropost_pages_spec.rb&#10;_feed_item&#9;FILE&#9;file:///Users/liangcheng/Documents/Work/RubyProjects/tutorial_with_intellij/RubyOnRailsTutorial2/app/views/shared/_feed_item.html.erb&#10;_micro&#9;FILE&#9;file:///Users/liangcheng/Documents/Work/RubyProjects/tutorial_with_intellij/RubyOnRailsTutorial2/app/views/microposts/_micropost.html.erb&#10;staticpage&#9;FILE&#9;file:///Users/liangcheng/Documents/Work/RubyProjects/tutorial_with_intellij/RubyOnRailsTutorial2/app/controllers/static_pages_controller.rb&#10;home.html.erb&#9;FILE&#9;file:///Users/liangcheng/Documents/Work/RubyProjects/tutorial_with_intellij/RubyOnRailsTutorial2/app/views/static_pages/home.html.erb" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -1467,7 +1466,7 @@
       <workItem from="1399173812079" duration="29213000" />
       <workItem from="1399503413272" duration="3205000" />
       <workItem from="1399532047985" duration="4377000" />
-      <workItem from="1399581603240" duration="23979000" />
+      <workItem from="1399581603240" duration="24399000" />
     </task>
     <task id="LOCAL-00001" summary="Just testing the commit">
       <created>1396589807013</created>
@@ -1481,7 +1480,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="122624000" />
+    <option name="totallyTimeSpent" value="123044000" />
   </component>
   <component name="TodoView" selected-index="0">
     <todo-panel id="selected-file">
@@ -1511,7 +1510,7 @@
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32980132" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.47019866" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.33245033" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.23178808" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -1700,14 +1699,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/spec/models/user_spec.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="3165">
-          <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/views/shared/_stats.html.erb">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-8.75" vertical-offset="0" max-vertical-offset="300">
@@ -1794,14 +1785,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-0.625" vertical-offset="0" max-vertical-offset="105">
           <caret line="1" column="52" selection-start-line="1" selection-start-column="52" selection-end-line="1" selection-end-column="52" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/models/user.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="58" max-vertical-offset="870">
-          <caret line="11" column="2" selection-start-line="11" selection-start-column="2" selection-end-line="11" selection-end-column="2" />
           <folding />
         </state>
       </provider>
@@ -1970,8 +1953,24 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/users/_unfollow.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.049668875" vertical-offset="0" max-vertical-offset="302">
+        <state vertical-scroll-proportion="-0.625" vertical-offset="0" max-vertical-offset="135">
           <caret line="1" column="38" selection-start-line="1" selection-start-column="38" selection-end-line="1" selection-end-column="38" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spec/models/user_spec.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-7.1923075" vertical-offset="2528" max-vertical-offset="3345">
+          <caret line="181" column="16" selection-start-line="181" selection-start-column="16" selection-end-line="181" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/models/user.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.70198673" vertical-offset="417" max-vertical-offset="945">
+          <caret line="49" column="2" selection-start-line="49" selection-start-column="2" selection-end-line="49" selection-end-column="2" />
           <folding />
         </state>
       </provider>

@@ -109,6 +109,8 @@ describe "User pages" do
     describe "follow/unfollow buttons" do
       let(:other_user) { FactoryGirl.create(:user) }
       before { sign_in user }
+      it {should have_link("0 following", href: following_user_path(user)) }
+      it {should have_link("0 followers", href: followers_user_path(user)) }
 
       describe "following a user" do
         before { visit user_path(other_user) }
@@ -129,6 +131,24 @@ describe "User pages" do
           before { click_button "Follow" }
           it { should have_xpath("//input[@value='Unfollow']") }
         end
+
+        describe "increase the followed count by 1 of the other user" do
+          before do
+            click_button "Follow"
+          end
+          it {should have_link("0 following", href: following_user_path(other_user)) }
+          it {should have_link("1 followers", href: followers_user_path(other_user)) }
+        end
+
+        describe "increase the following count by 1 of the original user" do
+          before do
+            click_button "Follow"
+            visit user_path(user)
+          end
+          it {should have_link("1 following", href: following_user_path(user)) }
+          it {should have_link("0 followers", href: followers_user_path(user)) }
+        end
+
       end
 
       describe "unfollowing a user" do
@@ -184,6 +204,38 @@ describe "User pages" do
 
   end
 
+  describe "changes to feed and follow after deleting a user" do
+
+    describe "feed includes followed microposts" do
+      let!(:user) { FactoryGirl.create(:user) }
+      let!(:other_user) { FactoryGirl.create(:user) }
+      let!(:other_user_post) { FactoryGirl.create(:micropost, user: other_user) }
+      let!(:other_user_posts) { (1..5).map{ FactoryGirl.create(:micropost, user: other_user) }}
+      let!(:post) { FactoryGirl.create(:micropost, user: user) }
+
+      before do
+        sign_in user
+        visit user_path(other_user)
+        click_button "Follow"
+        visit root_url
+      end
+
+      #other_user_posts.to_a.each do |post|
+      #  expect(page).to have_content(text: post.content)
+      #end
+      #puts other_user_post.content
+      #it {puts post.content; true}
+      it {should have_content(post.content)}
+      it {should have_content(other_user_post.content)}
+
+      it do
+        other_user_posts.to_a.each do |post|
+          puts post.content
+          should have_content(post.content)
+        end
+      end
+    end
+  end
 
 
   describe "signup page" do

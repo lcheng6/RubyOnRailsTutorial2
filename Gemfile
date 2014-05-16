@@ -21,6 +21,7 @@ gem 'turbolinks', '1.1.1'
 gem 'jbuilder', '1.0.2'
 gem 'gmaps4rails'
 gem 'underscore-rails'
+gem 'geocoder'
 
 group :development, :test do
   gem 'sqlite3'

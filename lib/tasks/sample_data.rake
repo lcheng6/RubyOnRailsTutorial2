@@ -13,7 +13,12 @@ def make_single_admin_user
                email: "example@railstutorial.org",
                password: "foobar",
                password_confirmation: "foobar",
-               admin: true)
+               admin: true,
+               address: "New York, NY",
+               description: Faker::Lorem.sentence(5),
+               latitude: Faker::Address.latitude,
+               longitude: Faker::Address.longitude
+  )
 end
 
 def make_99_common_users
@@ -24,7 +29,11 @@ def make_99_common_users
     User.create!(name: name,
                  email: email,
                  password: password,
-                 password_confirmation: password)
+                 password_confirmation: password,
+                 address: "New York, NY",
+                 description: Faker::Lorem.sentence(5),
+                 latitude: Faker::Address.latitude,
+                 longitude: Faker::Address.longitude)
     end
 end
 

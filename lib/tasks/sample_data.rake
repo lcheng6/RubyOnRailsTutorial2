@@ -41,6 +41,8 @@ def make_sample_microposts
   users = User.all(limit: 50)
   50.times do
     content = Faker::Lorem.sentence(5)
+    latitude = Faker::Address.latitude
+    longitude = Faker::Address.longitude
     users.each { |user| user.microposts.create!(content: content) }
   end
 end

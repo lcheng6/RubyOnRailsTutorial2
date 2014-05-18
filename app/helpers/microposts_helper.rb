@@ -14,4 +14,8 @@ module MicropostsHelper
         text.scan(regex).join(zero_width_space)
   end
 
+  def lat_long_formatter(num, decimals = 3)
+    num.round(decimals)
+  end
+
 end

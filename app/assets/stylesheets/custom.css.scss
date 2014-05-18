@@ -260,7 +260,14 @@ aside {
 /*feed style*/
 .span8
 {
-  height: 600px;
+  height: 1000px;
   width: 600px;
   overflow: auto;
+}
+
+#map img {
+  max-width: none;
+}
+#map label {
+  width: auto; display:inline;
 }

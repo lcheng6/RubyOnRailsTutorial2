@@ -26,24 +26,45 @@ def make_99_common_users
     name  = Faker::Name.name
     email = "example-#{n+1}@railstutorial.org"
     password  = "foobar"
+    n_mod = n % 6
+    case n_mod
+      when 0
+        address = "New York, NY"
+      when 1
+        address = "Washington, DC"
+      when 2
+        address = "Boston, MA"
+      when 3
+        address = "San Diego, CA"
+      when 4
+        address = "San Francisco, CA"
+      when 5
+        address = "Portland, OR"
+      else
+        address = "Miami, FL"
+    end
     User.create!(name: name,
                  email: email,
                  password: password,
                  password_confirmation: password,
-                 address: "New York, NY",
+                 address: address,
                  description: Faker::Lorem.sentence(5),
-                 latitude: Faker::Address.latitude,
-                 longitude: Faker::Address.longitude)
+                 )
     end
 end
 
 def make_sample_microposts
   users = User.all(limit: 50)
   50.times do
-    content = Faker::Lorem.sentence(5)
-    latitude = Faker::Address.latitude
-    longitude = Faker::Address.longitude
-    users.each { |user| user.microposts.create!(content: content) }
+    users.each do |user|
+      content = Faker::Lorem.sentence(5)
+      latitude = Faker::Address.latitude
+      longitude = Faker::Address.longitude
+      city_name = "Placeholder, NY"
+
+      user.microposts.create!(content: content, latitude: latitude, longitude: longitude, address: city_name )
+
+    end
   end
 end
 

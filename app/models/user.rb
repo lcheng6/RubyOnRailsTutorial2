@@ -28,10 +28,10 @@ class User < ActiveRecord::Base
     SecureRandom.urlsafe_base64
   end
 
-  def feed
-    #This is preliminary.  Just the current user's messages
-    Micropost.where("user_id = ?", id)
-  end
+  # def feed
+  #   #This is preliminary.  Just the current user's messages
+  #   Micropost.where("user_id = ?", id)
+  # end
 
   def User.digest(token)
     Digest::SHA1.hexdigest(token.to_s)

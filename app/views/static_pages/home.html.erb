@@ -10,6 +10,7 @@
             <section>
                 <%= render 'shared/micropost_form' %>
             </section>
+            <%= link_to '<button class="btn btn-large btn-secondary">Download KML</button>'.html_safe, download_path %>
         </aside>
 
         <div class="span8" >
@@ -29,10 +30,36 @@
                         }
                     },
                 function(){
-                    markers = handler.addMarkers(<%=raw @feed_markers.to_json %>)
-                    handler.bounds.extendWith(markers);
-                    handler.fitMapToBounds();
+                    var kmls = handler.addKml(
+                            { url: "/download" }
+                    );
+//                    markers = handler.addMarkers(<%=raw @feed_markers.to_json %>)
+//                    handler.bounds.extendWith(markers);
+//                    handler.fitMapToBounds();
                 });
+//                var handler = Gmaps.build('Google');
+//                handler.buildMap({
+//                    internal: {id: 'map'}
+//                },
+//                function() {
+//                    var kmls = handler.addKml(
+//                            { url: "http://gmaps-samples.googlecode.com/svn/trunk/ggeoxml/cta.kml" }
+//                    );
+//                });
+//                handler.buildMap( {
+//                    provider: {
+//                        disableDefaultUI: true
+//                        // pass in other Google Maps API options here
+//                    },
+//                    internal: {
+//                        id: 'map'
+//                        }
+//                    },
+//                function(){
+//                    markers = handler.addMarkers(<%=raw @feed_markers.to_json %>)
+//                    handler.bounds.extendWith(markers);
+//                    handler.fitMapToBounds();
+//                });
             </script>
             <%= render 'shared/feed' %>
         </div>

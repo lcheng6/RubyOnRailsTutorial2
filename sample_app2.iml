@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <module type="RUBY_MODULE" version="4">
+  <component name="CompassSettings">
+    <option name="compassSupportEnabled" value="true" />
+  </component>
   <component name="FacetManager">
     <facet type="RailsFacetType" name="Ruby on Rails">
       <configuration>
@@ -82,6 +85,7 @@
     <orderEntry type="library" scope="PROVIDED" name="rspec-expectations (v2.13.0, RVM: ruby-2.0.0-p353) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="rspec-mocks (v2.13.1, RVM: ruby-2.0.0-p353) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="rspec-rails (v2.13.1, RVM: ruby-2.0.0-p353) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="ruby_kml (v0.1.7, RVM: ruby-2.0.0-p353) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="sass (v3.3.7, RVM: ruby-2.0.0-p353) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="sass-rails (v4.0.1, RVM: ruby-2.0.0-p353) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="sdoc (v0.3.20, RVM: ruby-2.0.0-p353) [gem]" level="application" />

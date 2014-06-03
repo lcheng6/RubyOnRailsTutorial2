@@ -22,6 +22,7 @@ gem 'jbuilder', '1.0.2'
 gem 'gmaps4rails'
 #gem 'underscore-rails'
 gem 'geocoder'
+gem 'ruby_kml'
 
 group :development, :test do
   gem 'sqlite3'
